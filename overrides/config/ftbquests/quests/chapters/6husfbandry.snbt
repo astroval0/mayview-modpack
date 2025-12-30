@@ -238,7 +238,7 @@
 			id: "113D7F2A19D83AB0"
 			tasks: [{
 				id: "768B45FB712D39C9"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(brewinandchewin:fermented_drinks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 9.0d
