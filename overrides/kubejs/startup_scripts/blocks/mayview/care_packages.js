@@ -36,8 +36,8 @@ StartupEvents.registry("block", function (event) {
       soundType: "wool",
     },
     {
-      id: "pokemon_care_package",
-      displayName: "Pokémon Care Package",
+      id: "pokemon_wellness_package",
+      displayName: "Pokémon Wellness Package",
       soundType: "wool",
     },
     {
@@ -60,6 +60,16 @@ StartupEvents.registry("block", function (event) {
       displayName: "Tier Two Create Care Package",
       soundType: "stone",
     },
+    {
+      id: "plushie_care_package",
+      displayName: "Plushie Care Package",
+      soundType: "wool",
+    },    
+    {
+      id: "delibird_present",
+      displayName: "Delibird Present",
+      soundType: "wool",
+    }
   ];
 
   CARE_PACKAGE_BLOCK_DEFINITIONS.forEach(function (definition) {
