@@ -26,9 +26,9 @@ var quests = [
     entity: "endermanoverhaul:dark_oak_enderman",
   },
   {
-    id: "2EA145C196D427B3",
-    biome: "biomeswevegone:orchard",
-    pokemon: "combee",
+    id: "24E338F06CC85478",
+    type: "color",
+    biome: "terralith:blooming_plateau",
   },
   {
     id: "15B7AF4DF1C30B14",
@@ -102,15 +102,8 @@ function parseCameraData(dataObj) {
     var f = framesArr[i];
     var extra = f.extra_data || {};
     var counts = {};
-    var pokemonCounts = {};
     (f.entities_in_frame || []).forEach(function (e) {
       counts[e.id] = (counts[e.id] || 0) + 1;
-
-      // Track Cobblemon name separately
-      if (e.id === "cobblemon:pokemon" && e.name) {
-        var key = String(e.name).toLowerCase();
-        pokemonCounts[key] = (pokemonCounts[key] || 0) + 1;
-      }
     });
     var entities = Object.keys(counts).map(function (id) {
       return { id: id, count: counts[id] };
@@ -124,16 +117,9 @@ function parseCameraData(dataObj) {
         ? extra.structures.slice()
         : [],
       entities: entities,
-      pokemonCounts: pokemonCounts,
       filmType: typeKey,
       isColor: isColor,
     });
-    // inside the for-loop in parseCameraData, right before counts:
-    console.log(
-      "RAW entities_in_frame:",
-      JSON.stringify(f.entities_in_frame, null, 2),
-    );
-    console.log("RAW extra_data:", JSON.stringify(f.extra_data, null, 2));
   }
 
   console.log(out);
@@ -157,12 +143,6 @@ function frameMatches(frame, quest) {
     if (!e || (quest.minCount != null && e.count < quest.minCount))
       return false;
   }
-  if (quest.pokemon) {
-    var key = String(quest.pokemon).toLowerCase();
-    var count = frame.pokemonCounts && frame.pokemonCounts[key];
-    if (!count || (quest.minCount != null && count < quest.minCount))
-      return false;
-  }
   if (quest.entityPrefix) {
     if (!frame.entities.some((e) => e.id.startsWith(quest.entityPrefix)))
       return false;
@@ -176,22 +156,12 @@ function frameMatches(frame, quest) {
   if (quest.timeWindows) {
     var t = frame.timeOfDay;
     if (t == null) return false;
-    t = Math.floor(t / 24000);
     var ok = quest.timeWindows.some(function (w) {
       return w.from <= w.to ? t >= w.from && t < w.to : t >= w.from || t < w.to;
     });
     if (!ok) return false;
   }
   return true;
-}
-
-function toastOnce(player, key, title, subtitle) {
-  var pd = player.persistentData;
-  if (!pd.photoQuestToasts) pd.photoQuestToasts = {};
-  if (pd.photoQuestToasts[key]) return;
-  pd.photoQuestToasts[key] = true;
-
-  player.notify(title, subtitle);
 }
 
 PlayerEvents.inventoryChanged(function (event) {
@@ -208,23 +178,10 @@ PlayerEvents.inventoryChanged(function (event) {
   if (!frames.length) return;
 
   var server = FTBQuests.getServerDataFromPlayer(event.player);
-
   frames.forEach(function (frame) {
     quests.forEach(function (q) {
       if (frameMatches(frame, q)) {
-        server.complete(q.id);
-
-        var who = q.pokemon ? q.pokemon : q.entity ? q.entity : "Subject";
-        var where = q.biome
-          ? q.biome.split(":")[1].replace(/_/g, " ")
-          : "somewhere";
-
-        toastOnce(
-          event.player,
-          q.id,
-          "Poke Snap Complete!",
-          "Picture taken of " + who + " in the " + where,
-        );
+        server.addProgress(q.id, 1);
       }
     });
   });

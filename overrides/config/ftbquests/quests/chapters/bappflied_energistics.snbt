@@ -201,6 +201,46 @@
 			y: -10.0d
 		}
 		{
+			dependencies: ["7C43FDC9F76C0BBC"]
+			id: "0604446FC8ACB86B"
+			tasks: [
+				{
+					icon: {
+						id: "ae2:engineering_processor_press"
+					}
+					id: "04AB57B878D5C58B"
+					item: { components: { "ftbquests:missing_item": "ae2:engineering_processor_press" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ae2:logic_processor_press"
+					}
+					id: "70FD705A1A3A6368"
+					item: { components: { "ftbquests:missing_item": "ae2:logic_processor_press" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ae2:silicon_press"
+					}
+					id: "12C849892AE14E2D"
+					item: { components: { "ftbquests:missing_item": "ae2:silicon_press" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "ae2:calculation_processor_press"
+					}
+					id: "3F2C18CDBE8D069A"
+					item: { components: { "ftbquests:missing_item": "ae2:calculation_processor_press" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
 			dependencies: ["1412C2CDEEE773AA"]
 			id: "47DDEBFB031EDCCB"
 			tasks: [{
@@ -229,7 +269,7 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["008E9F2F0247A08F"]
+			dependencies: ["0604446FC8ACB86B"]
 			id: "46090A1C79B3490E"
 			tasks: [{
 				icon: {
@@ -257,7 +297,7 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["008E9F2F0247A08F"]
+			dependencies: ["0604446FC8ACB86B"]
 			id: "519FF730A538FB14"
 			tasks: [{
 				icon: {
@@ -333,7 +373,7 @@
 			y: -18.0d
 		}
 		{
-			dependencies: ["008E9F2F0247A08F"]
+			dependencies: ["0604446FC8ACB86B"]
 			id: "217B032AAEECAC7C"
 			tasks: [{
 				icon: {
@@ -469,99 +509,6 @@
 			}]
 			x: 0.0d
 			y: -12.0d
-		}
-		{
-			dependencies: ["7C43FDC9F76C0BBC"]
-			id: "008E9F2F0247A08F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2280312C44EEDB57"
-				table_id: 6181371867369904897L
-				type: "all_table"
-			}]
-			tasks: [
-				{
-					icon: {
-						id: "ae2:silicon_press"
-					}
-					id: "66393C5D29E054D9"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "ae2:silicon_press"
-				}
-				{
-					icon: {
-						id: "ae2:calculation_processor_press"
-					}
-					id: "4AE0C58176B6D724"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-				{
-					icon: {
-						id: "ae2:logic_processor_press"
-					}
-					id: "1EFA95BA98B0F821"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-				{
-					icon: {
-						id: "ae2:engineering_processor_press"
-					}
-					id: "1681AC0990D6B5C6"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-				{
-					icon: {
-						id: "minecraft:villager_spawn_egg"
-					}
-					id: "1F5DA0A52080D4F2"
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: true
-					use_wanted_item: false
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-			]
-			x: -2.0d
-			y: -14.0d
 		}
 	]
 }

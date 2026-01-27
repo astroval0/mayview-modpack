@@ -1,4 +1,3 @@
-// ignored: true
 // let dumpedSeeds = false;
 
 // ServerEvents.tick((event) => {
