@@ -28,7 +28,7 @@ var quests = [
   {
     id: "2EA145C196D427B3",
     biome: "biomeswevegone:orchard",
-    pokemon: "combee"
+    pokemon: "combee",
   },
   {
     id: "15B7AF4DF1C30B14",
@@ -85,8 +85,6 @@ var quests = [
   { id: "25A5DF50AF9EDA14", entity: "minecraft:cow" },
 ];
 
-
-
 function parseCameraData(dataObj) {
   var comps = dataObj.components || (dataObj.tag && dataObj.tag.components);
   if (!comps) return [];
@@ -131,8 +129,11 @@ function parseCameraData(dataObj) {
       isColor: isColor,
     });
     // inside the for-loop in parseCameraData, right before counts:
-      console.log("RAW entities_in_frame:", JSON.stringify(f.entities_in_frame, null, 2));
-      console.log("RAW extra_data:", JSON.stringify(f.extra_data, null, 2));
+    console.log(
+      "RAW entities_in_frame:",
+      JSON.stringify(f.entities_in_frame, null, 2),
+    );
+    console.log("RAW extra_data:", JSON.stringify(f.extra_data, null, 2));
   }
 
   console.log(out);
@@ -159,7 +160,8 @@ function frameMatches(frame, quest) {
   if (quest.pokemon) {
     var key = String(quest.pokemon).toLowerCase();
     var count = frame.pokemonCounts && frame.pokemonCounts[key];
-    if(!count || (quest.minCount != null && count < quest.minCount)) return false;
+    if (!count || (quest.minCount != null && count < quest.minCount))
+      return false;
   }
   if (quest.entityPrefix) {
     if (!frame.entities.some((e) => e.id.startsWith(quest.entityPrefix)))
@@ -188,7 +190,7 @@ function toastOnce(player, key, title, subtitle) {
   if (!pd.photoQuestToasts) pd.photoQuestToasts = {};
   if (pd.photoQuestToasts[key]) return;
   pd.photoQuestToasts[key] = true;
-  
+
   player.notify(title, subtitle);
 }
 
@@ -212,14 +214,16 @@ PlayerEvents.inventoryChanged(function (event) {
       if (frameMatches(frame, q)) {
         server.complete(q.id);
 
-        var who = q.pokemon ? q.pokemon : (q.entity ? q.entity : "Subject");
-        var where = q.biome ? q.biome.split(":")[1].replace(/_/g, " ") : "somewhere";
+        var who = q.pokemon ? q.pokemon : q.entity ? q.entity : "Subject";
+        var where = q.biome
+          ? q.biome.split(":")[1].replace(/_/g, " ")
+          : "somewhere";
 
         toastOnce(
           event.player,
           q.id,
           "Poke Snap Complete!",
-          "Picture taken of " + who + " in the " + where
+          "Picture taken of " + who + " in the " + where,
         );
       }
     });
