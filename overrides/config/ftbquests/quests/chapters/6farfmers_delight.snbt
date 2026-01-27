@@ -33,7 +33,7 @@
 			tasks: [{
 				count: 32L
 				id: "05C8A59722D86E15"
-				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:fertilizers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -113,7 +113,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "770A118D2C1B642B"
-				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -188,7 +188,7 @@
 				}
 				{
 					id: "7DBFDCFCA3AFB1FB"
-					item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -307,7 +307,7 @@
 				id: "58871EA8BAAA7528"
 				type: "custom"
 			}]
-			x: 5.0d
+			x: 9.0d
 			y: -6.0d
 		}
 	]

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side": "kubejs:block/plushie_care_package_side",
-    "top": "kubejs:block/plushie_care_package_top",
-    "bottom": "kubejs:block/care_package_bottom"
-  }
-}

@@ -8,25 +8,7 @@
 		id: "cobblemon:tamato_berry"
 	}
 	id: "658F5D98B4E8187C"
-	images: [
-		{
-			height: 1.0d
-			image: "cobblemon:textures/gui/pokedex/caught_icon.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			height: 1.0d
-			image: "cobblemon:textures/gui/pokenav/pokenav_pokemon.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 2.0d
-			y: 1.0d
-		}
-	]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

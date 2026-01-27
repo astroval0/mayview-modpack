@@ -48,7 +48,6 @@ BlockEvents.rightClicked(FOOD_CARE_PACKAGE_BLOCK_ID, (event) => {
     }
   );
 
-
   block.set("minecraft:air");
 });
 
