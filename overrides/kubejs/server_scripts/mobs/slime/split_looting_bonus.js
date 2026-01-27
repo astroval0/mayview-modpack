@@ -2,7 +2,7 @@
 // Apply bonus split children based on stored looting from the death event.
 
 var BONUS_PER_LOOTING_LEVEL = 2
-var MAX_BONUS_CHILDREN = 8
+var MAX_BONUS_CHILDREN = 5
 // Future note: Setup Debug Boolean for toggled debug logging/messages
 //const DEBUGSY = false
 

@@ -1,0 +1,3200 @@
+{
+	autofocus_id: "32757268B1A00FA6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cberfries"
+	group: "379FE802613ABCBC"
+	icon: {
+		id: "cobblemon:persim_berry"
+	}
+	id: "50729B6CA0574E8E"
+	images: [
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 15.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbteams:textures/add.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "fancymenu:textures/contextmenu/icons/arrow_down.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			color: 15329769
+			height: 1.0d
+			image: "minecraft:textures/gui/sprites/recipe_book/page_forward.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/hud/abilities/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.8d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "relics:textures/hud/abilities/arrow_left.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.8d
+			y: 1.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1D4476C1B0E224B8"
+			shape: "hexagon"
+			tasks: [{
+				id: "5EA27EBDCC68C658"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1B63296669E4F781"
+			shape: "hexagon"
+			tasks: [{
+				id: "228A425EAEB22E00"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "514F6653C7064CEB"
+			shape: "hexagon"
+			tasks: [{
+				id: "174D1AACF035CACD"
+				item: { count: 1, id: "cobblemon:bluk_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7871C1A899959625"
+			shape: "hexagon"
+			tasks: [{
+				id: "450ADF2F6B4A0C25"
+				item: { count: 1, id: "cobblemon:chilan_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "76861175CF65CB9D"
+			shape: "hexagon"
+			tasks: [{
+				id: "01FEC60C00195452"
+				item: { count: 1, id: "cobblemon:yache_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1B2391ED897E44C4"
+			shape: "hexagon"
+			tasks: [{
+				id: "3B8F4193AC1D8310"
+				item: { count: 1, id: "cobblemon:coba_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7F2F00293669A377"
+			shape: "hexagon"
+			tasks: [{
+				id: "6C4D41E69971B381"
+				item: { count: 1, id: "cobblemon:haban_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "32757268B1A00FA6"
+			shape: "hexagon"
+			tasks: [{
+				id: "2711299944D17A8D"
+				item: { count: 1, id: "cobblemon:eggant_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "156A5B9C9BC9867B"
+			shape: "hexagon"
+			tasks: [{
+				id: "382352F9CC3ACDE9"
+				item: { count: 1, id: "cobblemon:cheri_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7E67DCF3346A004D"
+			shape: "hexagon"
+			tasks: [{
+				id: "3E64EB3688BAA0C5"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "03EC399C87C0A4C5"
+			shape: "hexagon"
+			tasks: [{
+				id: "325EB069DFABD80F"
+				item: { count: 1, id: "cobblemon:nanab_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6A863C653CC362E6"
+			shape: "hexagon"
+			tasks: [{
+				id: "3453A3806DB6B0B3"
+				item: { count: 1, id: "cobblemon:occa_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "18FD1BB4EF061FC2"
+			shape: "hexagon"
+			tasks: [{
+				id: "285CBD13519C9587"
+				item: { count: 1, id: "cobblemon:chople_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "24DED1A6F07FFA98"
+			shape: "hexagon"
+			tasks: [{
+				id: "59C7174CA392E3F4"
+				item: { count: 1, id: "cobblemon:payapa_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2B4A4AE31072E67B"
+			shape: "hexagon"
+			tasks: [{
+				id: "3736EAAB1DF24965"
+				item: { count: 1, id: "cobblemon:kasib_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3B409292DE2993D4"
+			shape: "hexagon"
+			tasks: [{
+				id: "21302DF06F02B6C7"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "73B73B12E5E7A7D4"
+			shape: "hexagon"
+			tasks: [{
+				id: "07FB8024EEC1756D"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "54BC2101F70BB5BC"
+			shape: "hexagon"
+			tasks: [{
+				id: "5263AAE50D282054"
+				item: { count: 1, id: "cobblemon:wepear_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "706FDEA90079E954"
+			shape: "hexagon"
+			tasks: [{
+				id: "08D008CEDD53E29C"
+				item: { count: 1, id: "cobblemon:passho_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "420FB45B7A40F824"
+			shape: "hexagon"
+			tasks: [{
+				id: "6F3053281FC4AC74"
+				item: { count: 1, id: "cobblemon:kebia_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1B4BE6AF7BABFAB9"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F34C93CF5D3A12F"
+				item: { count: 1, id: "cobblemon:tanga_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "36CB5E9349D68805"
+			shape: "hexagon"
+			tasks: [{
+				id: "6982D1D200A8D7CA"
+				item: { count: 1, id: "cobblemon:colbur_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "507FF1656E0513DF"
+			shape: "hexagon"
+			tasks: [{
+				id: "55E126BF764887BF"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "69418D65A3BCBCCB"
+			shape: "hexagon"
+			tasks: [{
+				id: "2AA7DDE776418484"
+				item: { count: 1, id: "cobblemon:razz_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6698843C76FC004C"
+			shape: "hexagon"
+			tasks: [{
+				id: "7EC8DD29081BB3F3"
+				item: { count: 1, id: "cobblemon:pinap_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "21253ED3E44E72D8"
+			shape: "hexagon"
+			tasks: [{
+				id: "44CD971E425E3E95"
+				item: { count: 1, id: "cobblemon:rindo_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3B1F6F61AE8B43FD"
+			shape: "hexagon"
+			tasks: [{
+				id: "62CC227D6695EBBD"
+				item: { count: 1, id: "cobblemon:shuca_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0CF5BA61C086CA01"
+			shape: "hexagon"
+			tasks: [{
+				id: "0D9AB7752073520D"
+				item: { count: 1, id: "cobblemon:charti_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "26A3E836E01306B6"
+			shape: "hexagon"
+			tasks: [{
+				id: "22D6BC095C1710A1"
+				item: { count: 1, id: "cobblemon:babiri_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "7CF99DCD35D03C09"
+			tasks: [{
+				id: "7D44B3FD6A6A12EB"
+				item: { count: 1, id: "cobblemon:mulch_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "53ED0D637FFBC2C4"
+			tasks: [{
+				id: "17B6F9550F7315CD"
+				item: { count: 1, id: "cobblemon:growth_mulch" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "73742ED3D5EBD0CD"
+			tasks: [{
+				id: "2E312DF3E591CADC"
+				item: { count: 1, id: "cobblemon:rich_mulch" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "05EDD7882F822ABF"
+			tasks: [{
+				id: "691559F175DAB71D"
+				item: { count: 1, id: "cobblemon:surprise_mulch" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "733B6BC8C2F9C8AE"
+			tasks: [{
+				id: "68211B14429793E9"
+				item: { count: 1, id: "cobblemon:coarse_mulch" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "20F0233982CE98F1"
+			tasks: [{
+				id: "637B7D46402BFEB2"
+				item: { count: 1, id: "cobblemon:humid_mulch" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "71E18077B4393B1E"
+			tasks: [{
+				id: "2A53791276569D01"
+				item: { count: 1, id: "cobblemon:loamy_mulch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "42C3043704578363"
+			tasks: [{
+				id: "7103B890D703858C"
+				item: { count: 1, id: "cobblemon:peat_mulch" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6F71C2AFDECF92E4"
+			tasks: [{
+				id: "69F31BA91A1AD2C0"
+				item: { count: 1, id: "cobblemon:sandy_mulch" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "64FFD68DE175F3C6"
+			shape: "none"
+			tasks: [{
+				id: "76AE51F2635C5071"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "13D06FD3F55DFC4C"
+			shape: "none"
+			tasks: [{
+				id: "16CF516E06CF231A"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6CD34FF698EF23A3"
+			shape: "circle"
+			tasks: [{
+				id: "31894521BD2A385A"
+				item: { count: 1, id: "cobblemon:mago_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7FB7DB2B205B3CE8"
+			shape: "none"
+			tasks: [{
+				id: "6B5F4437BCBDB90E"
+				item: { count: 1, id: "cobblemon:mago_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2672F8F2CB32E5A0"
+			shape: "none"
+			tasks: [{
+				id: "36E0D17C88114225"
+				item: { count: 1, id: "cobblemon:nanab_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "mayview:textures/bluebook.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4D4946D0213565D5"
+			size: 1.5d
+			tasks: [{
+				id: "715C231CEE4E9632"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4FCBE379140D99DA"
+			shape: "circle"
+			tasks: [{
+				id: "10B779685660A141"
+				item: { count: 1, id: "cobblemon:magost_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "79E23F016257C9A3"
+			shape: "none"
+			tasks: [{
+				id: "6BD3F1E354D6556A"
+				item: { count: 1, id: "cobblemon:magost_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "08143F531AA6390A"
+			shape: "none"
+			tasks: [{
+				id: "15B48C35B3BB79BB"
+				item: { count: 1, id: "cobblemon:tanga_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "071E050927969A04"
+			shape: "circle"
+			tasks: [{
+				id: "1B5B9F9EDABA97A3"
+				item: { count: 1, id: "cobblemon:watmel_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6668FBC07483B6D4"
+			shape: "none"
+			tasks: [{
+				id: "0622A0D6F4B7A6C2"
+				item: { count: 1, id: "cobblemon:magost_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "00D0B5912F480E36"
+			shape: "none"
+			tasks: [{
+				id: "5130C6D4099DC331"
+				item: { count: 1, id: "cobblemon:roseli_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2B93080CFF3D59CC"
+			shape: "circle"
+			tasks: [{
+				id: "60575186D438368F"
+				item: { count: 1, id: "cobblemon:qualot_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6C06239ED9851A28"
+			shape: "none"
+			tasks: [{
+				id: "7A2F4414DD928C60"
+				item: { count: 1, id: "cobblemon:watmel_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6DB9364C9E2E390E"
+			shape: "none"
+			tasks: [{
+				id: "4197C24922683CDD"
+				item: { count: 1, id: "cobblemon:watmel_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0A0DAE43801C7B03"
+			shape: "none"
+			tasks: [{
+				id: "06B17CE0F44AFAA3"
+				item: { count: 1, id: "cobblemon:chilan_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "451FE306DD85865F"
+			shape: "circle"
+			tasks: [{
+				id: "6B728F5A7E53CC73"
+				item: { count: 1, id: "cobblemon:custap_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3771A18A013E6475"
+			shape: "none"
+			tasks: [{
+				id: "677D83A5E78F0BBE"
+				item: { count: 1, id: "cobblemon:qualot_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "76F55DADF9D3A4DD"
+			shape: "circle"
+			tasks: [{
+				id: "2121D17801E1E6EE"
+				item: { count: 1, id: "cobblemon:ganlon_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "183680DBB865B2DC"
+			shape: "none"
+			tasks: [{
+				id: "0B787C3A4B543B27"
+				item: { count: 1, id: "cobblemon:lum_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5799495957B1F4AA"
+			shape: "none"
+			tasks: [{
+				id: "447AC44A417CDD04"
+				item: { count: 1, id: "cobblemon:leppa_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7CA4EAFB15648550"
+			shape: "circle"
+			tasks: [{
+				id: "2324D4F0F9A00C29"
+				item: { count: 1, id: "cobblemon:hopo_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "63AF865778ED2F3E"
+			shape: "circle"
+			tasks: [{
+				id: "76F927CC240ED281"
+				item: { count: 1, id: "cobblemon:kee_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "526947772546E006"
+			shape: "none"
+			tasks: [{
+				id: "39FC11444F236B00"
+				item: { count: 1, id: "cobblemon:wacan_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "70C0DCA89EA76FA4"
+			shape: "circle"
+			tasks: [{
+				id: "0839E38A2C3893DA"
+				item: { count: 1, id: "cobblemon:maranga_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "684488F9D0C9C0A1"
+			shape: "none"
+			tasks: [{
+				id: "6BF11D16691FECEC"
+				item: { count: 1, id: "cobblemon:enigma_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "436BB4A6C30AD475"
+			shape: "none"
+			tasks: [{
+				id: "32D65AA3A06C1779"
+				item: { count: 1, id: "cobblemon:kasib_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "16A9069BC93EA7BA"
+			shape: "none"
+			tasks: [{
+				id: "16854D5BAFDDDB85"
+				item: { count: 1, id: "cobblemon:enigma_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "72FE147193EAEC9B"
+			shape: "none"
+			tasks: [{
+				id: "3DFD198F24314E8D"
+				item: { count: 1, id: "cobblemon:haban_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0FB023CA0169591C"
+			shape: "circle"
+			tasks: [{
+				id: "730FE2315CF2E8B3"
+				item: { count: 1, id: "cobblemon:pomeg_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "54095ED0F5F7373D"
+			shape: "none"
+			tasks: [{
+				id: "13E7624E0F437A16"
+				item: { count: 1, id: "cobblemon:sitrus_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "10096D80A69D50A9"
+			shape: "none"
+			tasks: [{
+				id: "65EBF1DC2DF26508"
+				item: { count: 1, id: "cobblemon:enigma_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 14.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7BD381774F6EF537"
+			shape: "none"
+			tasks: [{
+				id: "6EBEA4E29C72EA4C"
+				item: { count: 1, id: "cobblemon:haban_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 15.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "21E98965F0750B08"
+			shape: "none"
+			tasks: [{
+				id: "3AB98C9C9B00EF9E"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "16A417A48FCF1544"
+			shape: "circle"
+			tasks: [{
+				id: "73BF227D2FCDC054"
+				item: { count: 1, id: "cobblemon:lum_berry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6A3882AC8D05550F"
+			shape: "none"
+			tasks: [{
+				id: "348A6E62BC2ED617"
+				item: { count: 1, id: "cobblemon:cheri_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6AE4B3EC873CC651"
+			shape: "none"
+			tasks: [{
+				id: "2036076B321101A0"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2E744289B4431E81"
+			shape: "none"
+			tasks: [{
+				id: "4DB0D4F74F5D05B4"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5D90FB68C8C600A5"
+			shape: "none"
+			tasks: [{
+				id: "06CB7272B2B40ADA"
+				item: { count: 1, id: "cobblemon:pecha_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5F849B510513B16F"
+			shape: "none"
+			tasks: [{
+				id: "26E7F14CB16EEC02"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "393578C0AEE3B837"
+			shape: "none"
+			tasks: [{
+				id: "426003442DE5DAB2"
+				item: { count: 1, id: "cobblemon:oran_berry" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "10977B646D4E2942"
+			shape: "none"
+			tasks: [{
+				id: "6D04CE9236C63D8B"
+				item: { count: 1, id: "cobblemon:razz_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "61BBC480725E4D34"
+			shape: "none"
+			tasks: [{
+				id: "210946C05C5B18AD"
+				item: { count: 1, id: "cobblemon:bluk_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "76889DAC9E838783"
+			shape: "none"
+			tasks: [{
+				id: "2A5E10452877540D"
+				item: { count: 1, id: "cobblemon:nanab_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7B85835932CF6C3E"
+			shape: "none"
+			tasks: [{
+				id: "2B9D2BA3909C8536"
+				item: { count: 1, id: "cobblemon:wepear_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "21C09A105FF7C91B"
+			shape: "none"
+			tasks: [{
+				id: "01376D48BD595D99"
+				item: { count: 1, id: "cobblemon:pinap_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3D699794A08C42CD"
+			shape: "circle"
+			tasks: [{
+				id: "14FAC442717D55B5"
+				item: { count: 1, id: "cobblemon:leppa_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5F84C874F09061A1"
+			shape: "none"
+			tasks: [{
+				id: "7F9024C11A367381"
+				item: { count: 1, id: "cobblemon:lum_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5C0CBD4D83CADDCC"
+			shape: "none"
+			tasks: [{
+				id: "1BA65A7FDDA6BC34"
+				item: { count: 1, id: "cobblemon:figy_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "22086A9DC33792A1"
+			shape: "none"
+			tasks: [{
+				id: "2E7F8F7C287270B3"
+				item: { count: 1, id: "cobblemon:wiki_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4D44EC066B9AEF74"
+			shape: "none"
+			tasks: [{
+				id: "11B03C54CC9FC448"
+				item: { count: 1, id: "cobblemon:mago_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0D588B2368EECD11"
+			shape: "none"
+			tasks: [{
+				id: "28BC1E125B098166"
+				item: { count: 1, id: "cobblemon:aguav_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "28210BBAF4EC6F26"
+			shape: "none"
+			tasks: [{
+				id: "5EB85B49CBD8E7E7"
+				item: { count: 1, id: "cobblemon:iapapa_berry" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7D8739BA3C993F98"
+			shape: "circle"
+			tasks: [{
+				id: "12517B5CBE984F7F"
+				item: { count: 1, id: "cobblemon:sitrus_berry" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7049222FAF6BB380"
+			shape: "none"
+			tasks: [{
+				id: "224442B658CE1C82"
+				item: { count: 1, id: "cobblemon:hopo_berry" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "52997A1EF3715087"
+			shape: "circle"
+			tasks: [{
+				id: "7C542B40AB81D822"
+				item: { count: 1, id: "cobblemon:enigma_berry" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "19A995F50D812ACB"
+			shape: "none"
+			tasks: [{
+				id: "04BFE365965FB1F3"
+				item: { count: 1, id: "cobblemon:rindo_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3A197ABB01367577"
+			shape: "none"
+			tasks: [{
+				id: "7758A28D014DA024"
+				item: { count: 1, id: "cobblemon:coba_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2FE50A1FB1495304"
+			shape: "none"
+			tasks: [{
+				id: "156D425C1443BA41"
+				item: { count: 1, id: "cobblemon:tanga_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "71FF1612FF9D89F9"
+			shape: "none"
+			tasks: [{
+				id: "2C09A8197C6DC266"
+				item: { count: 1, id: "cobblemon:shuca_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0253E63D3910578B"
+			shape: "none"
+			tasks: [{
+				id: "2155860DAAD0FFF2"
+				item: { count: 1, id: "cobblemon:payapa_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "35C1A0D7B451ACA8"
+			shape: "none"
+			tasks: [{
+				id: "2C60AF35A4C42E7F"
+				item: { count: 1, id: "cobblemon:charti_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0912249174845CCD"
+			shape: "none"
+			tasks: [{
+				id: "120142F67072CA5C"
+				item: { count: 1, id: "cobblemon:babiri_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "77B65BE75CA07E9A"
+			shape: "none"
+			tasks: [{
+				id: "7275924F399C7A44"
+				item: { count: 1, id: "cobblemon:chilan_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "73BAAB52DDD01B61"
+			shape: "none"
+			tasks: [{
+				id: "72C99A05CF1E5A08"
+				item: { count: 1, id: "cobblemon:roseli_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "570EA4F800C7B1A9"
+			shape: "none"
+			tasks: [{
+				id: "1D6707578DD1EAC6"
+				item: { count: 1, id: "cobblemon:occa_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "67AE227AB96E6B18"
+			shape: "none"
+			tasks: [{
+				id: "6C957C937F37AD7A"
+				item: { count: 1, id: "cobblemon:passho_berry" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3146AB3AC509151F"
+			shape: "none"
+			tasks: [{
+				id: "6F887EA71B3AB024"
+				item: { count: 1, id: "cobblemon:wacan_berry" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3F6873F8D5EDF086"
+			shape: "none"
+			tasks: [{
+				id: "5ABEB0A06DE7BB82"
+				item: { count: 1, id: "cobblemon:yache_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4C2FFBFDBF1F9B92"
+			shape: "none"
+			tasks: [{
+				id: "0E94F536C991AAB2"
+				item: { count: 1, id: "cobblemon:chople_berry" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "79CBFF886FF405BE"
+			shape: "none"
+			tasks: [{
+				id: "4D2AE208EDF1EBAA"
+				item: { count: 1, id: "cobblemon:kebia_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1B2AA61628C99282"
+			shape: "none"
+			tasks: [{
+				id: "43232ADE9A2F87FD"
+				item: { count: 1, id: "cobblemon:kasib_berry" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "185A84AD8AB8A222"
+			shape: "none"
+			tasks: [{
+				id: "2056984307C149AC"
+				item: { count: 1, id: "cobblemon:haban_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7602EDC2DFADB668"
+			shape: "none"
+			tasks: [{
+				id: "28C47CBA8C818FF4"
+				item: { count: 1, id: "cobblemon:colbur_berry" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1CA2B79EB4C58FF0"
+			shape: "none"
+			tasks: [{
+				id: "560E7BF3CA19278A"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5D4ADE7DE2026F8E"
+			shape: "circle"
+			tasks: [{
+				id: "3AA4FEA6B6956152"
+				item: { count: 1, id: "cobblemon:figy_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7AE9E393403C4431"
+			shape: "none"
+			tasks: [{
+				id: "48926D077726C0D0"
+				item: { count: 1, id: "cobblemon:cheri_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2C31780FB321A6C0"
+			shape: "none"
+			tasks: [{
+				id: "2489B160FF9C122C"
+				item: { count: 1, id: "cobblemon:figy_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1FFDB94B3DF46507"
+			shape: "none"
+			tasks: [{
+				id: "5FF560F8595860D5"
+				item: { count: 1, id: "cobblemon:razz_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3410AB0E1307591A"
+			shape: "circle"
+			tasks: [{
+				id: "5562AB6C13398265"
+				item: { count: 1, id: "cobblemon:touga_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0561AD303689462B"
+			shape: "circle"
+			tasks: [{
+				id: "5C972BB654EFDD8A"
+				item: { count: 1, id: "cobblemon:spelon_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "63F49CED88E1606E"
+			shape: "circle"
+			tasks: [{
+				id: "10A94FDAADB33CB3"
+				item: { count: 1, id: "cobblemon:tamato_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "76A480EACD8A4A55"
+			shape: "circle"
+			tasks: [{
+				id: "5871AD73A0C25E0B"
+				item: { count: 1, id: "cobblemon:lansat_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7DC31A8FAD198F54"
+			shape: "circle"
+			tasks: [{
+				id: "178C1C5D97234839"
+				item: { count: 1, id: "cobblemon:salac_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0C392DCB7666EC4E"
+			shape: "circle"
+			tasks: [{
+				id: "5C50BEEF2EF8246C"
+				item: { count: 1, id: "cobblemon:aguav_berry" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.4d
+			id: "1EDDF2A5B23B7688"
+			shape: "circle"
+			tasks: [{
+				id: "685B1F3ED91535FA"
+				item: { count: 1, id: "cobblemon:rabuta_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "3DB81AD42BB21143"
+			shape: "circle"
+			tasks: [{
+				id: "75CDDB35ED0CA1BC"
+				item: { count: 1, id: "cobblemon:durin_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "67D928C3F3E44A70"
+			shape: "circle"
+			tasks: [{
+				id: "5D919994C0B8A96D"
+				item: { count: 1, id: "cobblemon:hondew_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "207F516AD3B1FF93"
+			shape: "circle"
+			tasks: [{
+				id: "0FACE7E95CA97642"
+				item: { count: 1, id: "cobblemon:jaboca_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5F2533C0F6CD6B63"
+			shape: "circle"
+			tasks: [{
+				id: "5BF787E1C0B0F347"
+				item: { count: 1, id: "cobblemon:wiki_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3074395D37E7558D"
+			shape: "circle"
+			tasks: [{
+				id: "2AD5A5F2C9EFCD6E"
+				item: { count: 1, id: "cobblemon:pamtre_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7D08A237F1E2702F"
+			shape: "none"
+			tasks: [{
+				id: "2111B8438366C7F4"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "37FDEC28FB38824B"
+			shape: "none"
+			tasks: [{
+				id: "1B7DD520F7FDF2BA"
+				item: { count: 1, id: "cobblemon:chesto_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "088BE3A4DEF78323"
+			shape: "none"
+			tasks: [{
+				id: "08E4B47EC4AE2E89"
+				item: { count: 1, id: "cobblemon:colbur_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "09BE6CFF883730C3"
+			shape: "none"
+			tasks: [{
+				id: "706C64DAEF2CFD3C"
+				item: { count: 1, id: "cobblemon:touga_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "77A5C3389099678F"
+			shape: "none"
+			tasks: [{
+				id: "32E6146AABDBBD91"
+				item: { count: 1, id: "cobblemon:touga_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6D311E5B1DB1A35C"
+			shape: "none"
+			tasks: [{
+				id: "74FFFA1547041624"
+				item: { count: 1, id: "cobblemon:occa_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4527E31FC4198D69"
+			shape: "none"
+			tasks: [{
+				id: "6EB98E806E31A947"
+				item: { count: 1, id: "cobblemon:spelon_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4D16946796BE9819"
+			shape: "none"
+			tasks: [{
+				id: "52A3BA772E823E6E"
+				item: { count: 1, id: "cobblemon:chople_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "74E20780ABFCC5BF"
+			shape: "none"
+			tasks: [{
+				id: "4D0D5BB24AE8D43D"
+				item: { count: 1, id: "cobblemon:tamato_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "467FC2823E6C010E"
+			shape: "none"
+			tasks: [{
+				id: "4A8B8E51430EDE12"
+				item: { count: 1, id: "cobblemon:spelon_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "34A158D06F5E3CC9"
+			shape: "none"
+			tasks: [{
+				id: "3DEDE57C78713457"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2E031BE5880A803B"
+			shape: "none"
+			tasks: [{
+				id: "23BF80D07C42EE78"
+				item: { count: 1, id: "cobblemon:rawst_berry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.4d
+			id: "52F2AD30D3007B4A"
+			shape: "none"
+			tasks: [{
+				id: "24D9F75EE6D10B92"
+				item: { count: 1, id: "cobblemon:aguav_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.4d
+			id: "4A5B6593073CFF63"
+			shape: "none"
+			tasks: [{
+				id: "57F29104B4548D96"
+				item: { count: 1, id: "cobblemon:wepear_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "3F23F7515C39177E"
+			shape: "none"
+			tasks: [{
+				id: "7A9C63B411497CA0"
+				item: { count: 1, id: "cobblemon:rabuta_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "1F48001ABADC4848"
+			shape: "none"
+			tasks: [{
+				id: "162DE39DEB8F8123"
+				item: { count: 1, id: "cobblemon:babiri_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1D1C69C3F7BE0F04"
+			shape: "none"
+			tasks: [{
+				id: "743EBD28BB01EE19"
+				item: { count: 1, id: "cobblemon:rabuta_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2B12EDC083246BE3"
+			shape: "none"
+			tasks: [{
+				id: "5A5A8BC709AAE0D5"
+				item: { count: 1, id: "cobblemon:shuca_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "659FE84A1AEFC4EA"
+			shape: "none"
+			tasks: [{
+				id: "6A30D056BB517FFD"
+				item: { count: 1, id: "cobblemon:durin_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "71E3B59682F03ACB"
+			shape: "none"
+			tasks: [{
+				id: "228EBB4983B17125"
+				item: { count: 1, id: "cobblemon:charti_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "58189FB36F8F8D11"
+			shape: "none"
+			tasks: [{
+				id: "56BB94115FF63842"
+				item: { count: 1, id: "cobblemon:durin_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0561B99FC3B1AFEE"
+			shape: "none"
+			tasks: [{
+				id: "33A4013F37E565AA"
+				item: { count: 1, id: "cobblemon:hondew_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1DB3ABCD90F796B4"
+			shape: "circle"
+			tasks: [{
+				id: "54EC05759AFBCB26"
+				item: { count: 1, id: "cobblemon:petaya_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1106A2C57BA4D4DF"
+			shape: "none"
+			tasks: [{
+				id: "18BCCC7F2B4A5071"
+				item: { count: 1, id: "cobblemon:wiki_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "125B0CE7F0C1BF07"
+			shape: "none"
+			tasks: [{
+				id: "21A94EB88945E519"
+				item: { count: 1, id: "cobblemon:bluk_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "762A7A964A5A68F5"
+			shape: "none"
+			tasks: [{
+				id: "42AF202A2E3EFC7C"
+				item: { count: 1, id: "cobblemon:cornn_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "65A8B7284FB9283C"
+			shape: "none"
+			tasks: [{
+				id: "3D93D973054D5DEF"
+				item: { count: 1, id: "cobblemon:passho_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2900689580B03066"
+			shape: "none"
+			tasks: [{
+				id: "140D9F0EC7120EA4"
+				item: { count: 1, id: "cobblemon:rindo_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "70288D3FDC99E73A"
+			shape: "none"
+			tasks: [{
+				id: "32B5026E1AEA4FDF"
+				item: { count: 1, id: "cobblemon:pamtre_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7DE2C0EC3D89D3B0"
+			shape: "none"
+			tasks: [{
+				id: "681E97C6387D047F"
+				item: { count: 1, id: "cobblemon:kebia_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "204F80F44F474F39"
+			shape: "none"
+			tasks: [{
+				id: "50BF06367009219B"
+				item: { count: 1, id: "cobblemon:kelpsy_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "38504D8448AA29ED"
+			shape: "none"
+			tasks: [{
+				id: "134A02BFF0E3EAAD"
+				item: { count: 1, id: "cobblemon:persim_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3E473AA0AEF44E52"
+			shape: "none"
+			tasks: [{
+				id: "4294395DD64885BE"
+				item: { count: 1, id: "cobblemon:aspear_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "7063CBDDBF76B4C8"
+			shape: "none"
+			tasks: [{
+				id: "7F4CAFA1E38E2A6C"
+				item: { count: 1, id: "cobblemon:iapapa_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6FDB99DDFEBFCDCB"
+			shape: "none"
+			tasks: [{
+				id: "550BF2C92A0C4007"
+				item: { count: 1, id: "cobblemon:pinap_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "71E79BD589B38C8C"
+			shape: "none"
+			tasks: [{
+				id: "02FF7D3CEB16C576"
+				item: { count: 1, id: "cobblemon:nomel_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3194829BA096D867"
+			shape: "none"
+			tasks: [{
+				id: "6E0CF1C5B62C13D7"
+				item: { count: 1, id: "cobblemon:payapa_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "1E3B9BCEAD8224DC"
+			shape: "none"
+			tasks: [{
+				id: "183C73282C3CFF88"
+				item: { count: 1, id: "cobblemon:yache_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4B26AE16AC9C9FF1"
+			shape: "none"
+			tasks: [{
+				id: "48412ED2FD185911"
+				item: { count: 1, id: "cobblemon:belue_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "77993E6985FC1C8F"
+			shape: "none"
+			tasks: [{
+				id: "236C5EFE08A7B525"
+				item: { count: 1, id: "cobblemon:coba_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5C3A1095B545A68E"
+			shape: "none"
+			tasks: [{
+				id: "19D81DA14F971E93"
+				item: { count: 1, id: "cobblemon:grepa_berry" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "537FAEE941BA30A8"
+			shape: "circle"
+			tasks: [{
+				id: "5EECDD88828E0D53"
+				item: { count: 1, id: "cobblemon:cornn_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "33AB63DE7A758714"
+			shape: "circle"
+			tasks: [{
+				id: "63B2741B8BB5B1AF"
+				item: { count: 1, id: "cobblemon:kelpsy_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5B0EF247F1316901"
+			shape: "circle"
+			tasks: [{
+				id: "6CF407B2A484B380"
+				item: { count: 1, id: "cobblemon:micle_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5E0E6821BBA318F9"
+			shape: "circle"
+			tasks: [{
+				id: "10DF87D70BD22A87"
+				item: { count: 1, id: "cobblemon:liechi_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "73C74CD3D7EEB780"
+			shape: "circle"
+			tasks: [{
+				id: "6E0E1C57083516B0"
+				item: { count: 1, id: "cobblemon:iapapa_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "11B0787F0648F64F"
+			shape: "circle"
+			tasks: [{
+				id: "18A28E5004D422C0"
+				item: { count: 1, id: "cobblemon:nomel_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "21EE48E47E44B3EA"
+			shape: "circle"
+			tasks: [{
+				id: "6A15C3B20201EEA7"
+				item: { count: 1, id: "cobblemon:belue_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "547C36E53B76F336"
+			shape: "circle"
+			tasks: [{
+				id: "43B63382A236B94C"
+				item: { count: 1, id: "cobblemon:grepa_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "55C535FDA51F017D"
+			shape: "circle"
+			tasks: [{
+				id: "0FDEBFBCA975E35E"
+				item: { count: 1, id: "cobblemon:rowap_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "478FEC4FDDCE106D"
+			shape: "circle"
+			tasks: [{
+				id: "009D5BA55F9EE6E9"
+				item: { count: 1, id: "cobblemon:apicot_berry" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 14.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "3C94DA8419308727"
+			shape: "none"
+			tasks: [{
+				id: "1D805919D0632B3F"
+				item: { count: 1, id: "cobblemon:cornn_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "02F0A6628D8FEEAA"
+			shape: "none"
+			tasks: [{
+				id: "5C4E986B4412949F"
+				item: { count: 1, id: "cobblemon:pamtre_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "563AF3348ABFB900"
+			shape: "none"
+			tasks: [{
+				id: "7DF2A48BDA643111"
+				item: { count: 1, id: "cobblemon:nomel_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "5EDB1C2672B030D6"
+			shape: "none"
+			tasks: [{
+				id: "18DB3BA1B167F4C5"
+				item: { count: 1, id: "cobblemon:belue_berry" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0C1822A9602291CC"
+			shape: "none"
+			tasks: [{
+				id: "47F8FB2CC8678DFD"
+				item: { count: 1, id: "cobblemon:eggant_berry" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "17810B0C1332B898"
+			shape: "circle"
+			tasks: [{
+				id: "4C54AE159A756AFB"
+				item: { count: 1, id: "cobblemon:leppa_berry" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0AFC50D867303C7C"
+			shape: "none"
+			tasks: [{
+				id: "4D4CF6DFAB5868C0"
+				item: { count: 1, id: "cobblemon:wiki_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2FB5BE931E9DC775"
+			shape: "none"
+			tasks: [{
+				id: "3A7E2CF1EA4E1651"
+				item: { count: 1, id: "cobblemon:iapapa_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "0890856EB3519254"
+			shape: "none"
+			tasks: [{
+				id: "421BCCA0ED4870E3"
+				item: { count: 1, id: "cobblemon:figy_berry" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "2D734CF3557A2AFC"
+			shape: "none"
+			tasks: [{
+				id: "6E72A4341E8C8065"
+				item: { count: 1, id: "cobblemon:mago_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "6174F1055B806D24"
+			shape: "none"
+			tasks: [{
+				id: "7EFAC73D652F4602"
+				item: { count: 1, id: "cobblemon:aguav_berry" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+	]
+}

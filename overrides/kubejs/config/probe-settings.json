@@ -1,5 +1,6 @@
 {
-    "probejs.classScanning": false,
-    "probejs.complete": false,
-    "probejs.modHash": 1864309330168040404
+  "probejs.classScanning": false,
+  "probejs.complete": true,
+  "probejs.modHash": -5882791652469820438,
+  "probejs.enabled": false
 }

@@ -1,0 +1,12 @@
+ServerEvents.recipes(event => { 
+  event.recipes.create_mechanical_extruder.extruding(
+        Item.of('biomeswevegone:dacite_cobblestone'),
+    [
+        BlockPredicate.of('minecraft:lava'),
+        BlockPredicate.of('minecraft:dried_kelp_block'),
+    ]
+  )
+    
+    // Requirements
+    .catalyst(BlockPredicate.of("minecraft:sand"))
+})

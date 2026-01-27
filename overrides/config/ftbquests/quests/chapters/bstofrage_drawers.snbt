@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bstofrage_drawers"
+	group: "35BB7EDFB30990B6"
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbchunks:textures/waypoint_death.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "28C90797D60321DB"
+	images: [
+		{
+			height: 1.4d
+			image: "mayview:textures/custard_hexa_flat.png"
+			rotation: 0.0d
+			width: 1.4d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.6d
+			image: "mayview:textures/gui/circle_shape.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "mayview:textures/custard_hexa.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5939E8943B976839"
+			rewards: [{
+				id: "3AD56ADA674A5717"
+				item: {
+					count: 1
+					id: "minecraft:spruce_log"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "48A9B82D0517D1CC"
+				profession_dropdown: "chefsdelight:chef"
+				profession_manual: "minecraft:librarian"
+				required: 4
+				type: "questeventbridge:trade_task"
+				use_dropdown: true
+				use_total: false
+				use_wanted_item: false
+				use_wanted_item_output_count: false
+				wanted_item: "minecraft:emerald"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "55C9CFF49D116EF8"
+			shape: "none"
+			tasks: [{
+				id: "6E365B9A54AAF3CF"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+}

@@ -96,12 +96,55 @@
 			dependencies: ["6F300AB7EDDA339A"]
 			id: "733B1C121138006C"
 			tasks: [{
-				count: 8L
-				icon: {
-					id: "farmersdelight:cabbage"
-				}
-				id: "0A4D7EEF822B0C61"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pig_food)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				advancement: "herbalbrews:main/get_a_flask"
+				criterion: ""
+				id: "4BCA05EAFED4BEC7"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			id: "0E787D215E78A98C"
+			tasks: [{
+				advancement: "brewery:main/brewing_pioneer"
+				criterion: ""
+				id: "031C2BB7989903DA"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E787D215E78A98C"]
+			id: "657FF58FB2BC8178"
+			tasks: [{
+				advancement: "brewery:main/copper_brewmaster"
+				criterion: ""
+				id: "5E867D4A2C330060"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657FF58FB2BC8178"]
+			id: "4E2A2360097D1DBB"
+			tasks: [{
+				advancement: "brewery:main/netherite_brewmaster"
+				criterion: ""
+				id: "377881E1ABACD3D4"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E2A2360097D1DBB"]
+			id: "113D7F2A19D83AB0"
+			tasks: [{
+				id: "768B45FB712D39C9"
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.0d

@@ -6,6 +6,7 @@ const STARTER_CARE_PACKAGE_ITEM_COUNTS = {
   STARTER_FOOD: 4,
   "ftbquests:book": 1,
   "cobblemon:poke_ball": 3,
+  "cobblemon:pokedex_pink": 1,
 };
 
 BlockEvents.rightClicked(STARTER_CARE_PACKAGE_BLOCK_ID, (event) => {
