@@ -23,7 +23,7 @@ BlockEvents.rightClicked(SAPLING_CARE_PACKAGE_BLOCK_ID, (event) => {
   if (chosen.length < 3) return;
 
   for (var i = 0; i < chosen.length; i++) {
-    block.popItem(Item.of(chosen[i], 1));
+    block.popItem(Item.of(chosen[i], 4));
   }
 
   global.CarePackageFX.generic(

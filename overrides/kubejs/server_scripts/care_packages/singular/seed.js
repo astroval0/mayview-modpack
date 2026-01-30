@@ -17,13 +17,13 @@ BlockEvents.rightClicked(SEED_CARE_PACKAGE_BLOCK_ID, (event) => {
 
   if (seeds.length === 0) return;
 
-  var count = randInt(2, 3);
+  var count = randInt(3, 5);
   var chosen = pickRandomUniqueValid(seeds, count);
 
   if (chosen.length < 2) return;
 
   for (var i = 0; i < chosen.length; i++) {
-    block.popItem(Item.of(chosen[i], 1));
+    block.popItem(Item.of(chosen[i], 4));
   }
 
   global.CarePackageFX.generic(

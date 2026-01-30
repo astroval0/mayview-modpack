@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "photo": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

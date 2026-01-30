@@ -1,5 +1,13 @@
+// kubejs/server_scripts/recipes/minecraft/crushing/addVanillaToolCrushing.js
+console.info('[Mayview] Vanilla tool crushing loaded')
+
 ServerEvents.recipes(event => {
-  // Yields per tool type (tweak to taste)
+  if (!global.Mayview || !global.Mayview.crushing || !global.Mayview.crushing.registerSet) {
+    console.error('[Mayview] crushing_helpers not available! (startup script failed or not loaded)')
+    return
+  }
+
+  // Yields per tool type
   const toolYields = {
     sword: 1,
     shovel: 1,
@@ -8,71 +16,46 @@ ServerEvents.recipes(event => {
     pickaxe: 2
   }
 
-  // Define XP nugget output chance
-  const XP_NUGGET_CHANCE = 0.25
+  const toolTypes = Object.keys(toolYields)
 
-  // Master list: explicit item IDs per tool type
+  // Vanilla naming quirks:
+  // wood     -> wooden_sword
+  // gold     -> golden_sword
+  // others   -> iron_sword, stone_pickaxe, etc.
+  const makeVanillaToolId = (material, toolType) => {
+    let mat = material
+
+    if (material === 'wood') mat = 'wooden'
+    else if (material === 'gold') mat = 'golden'
+
+    return `minecraft:${mat}_${toolType}`
+  }
+
+  // Material sets
   const toolSets = [
-    {
-      setName: 'Vanilla Iron Tools',
-      output: 'minecraft:iron_ingot',
-      inputs: {
-        sword: 'minecraft:iron_sword',
-        pickaxe: 'minecraft:iron_pickaxe',
-        axe: 'minecraft:iron_axe',
-        shovel: 'minecraft:iron_shovel',
-        hoe: 'minecraft:iron_hoe'
-      }
-    },
-    {
-      setName: 'Vanilla Gold Tools',
-      output: 'minecraft:gold_ingot',
-      inputs: {
-        sword: 'minecraft:golden_sword',
-        pickaxe: 'minecraft:golden_pickaxe',
-        axe: 'minecraft:golden_axe',
-        shovel: 'minecraft:golden_shovel',
-        hoe: 'minecraft:golden_hoe'
-      }
-    },
-    {
-      setName: 'Vanilla Diamond Tools',
-      output: 'minecraft:diamond',
-      inputs: {
-        sword: 'minecraft:diamond_sword',
-        pickaxe: 'minecraft:diamond_pickaxe',
-        axe: 'minecraft:diamond_axe',
-        shovel: 'minecraft:diamond_shovel',
-        hoe: 'minecraft:diamond_hoe'
-      }
-    },
-    {
-      setName: 'Vanilla Netherite Tools',
-      output: 'minecraft:netherite_scrap',
-      inputs: {
-        sword: 'minecraft:netherite_sword',
-        pickaxe: 'minecraft:netherite_pickaxe',
-        axe: 'minecraft:netherite_axe',
-        shovel: 'minecraft:netherite_shovel',
-        hoe: 'minecraft:netherite_hoe'
-      }
-    }
+    { material: 'wood',      output: 'create:pulp' },
+    { material: 'stone',     output: 'minecraft:cobblestone' },
+    { material: 'iron',      output: 'minecraft:iron_ingot' },
+    { material: 'gold',      output: 'minecraft:gold_ingot' },
+    { material: 'diamond',   output: 'minecraft:diamond' },
+    { material: 'netherite', output: 'minecraft:netherite_scrap' }
   ]
 
-  // Tool Crushing Generator
   toolSets.forEach(set => {
-    Object.entries(set.inputs).forEach(([toolType, inputId]) => {
-      const count = toolYields[toolType] ?? 1
+    // lower xp for non-metal materials
+    const isSoft = (set.material === 'wood' || set.material === 'stone')
 
-      event.recipes.create.crushing(
-        [
-          Item.of(set.output, count),
+    global.Mayview.crushing.registerSet(event, {
+      material: set.material,
+      output: set.output,
+      toolTypes: toolTypes,
+      yields: toolYields,
+      builder: makeVanillaToolId,
 
-          CreateItem.of('create:experience_nugget', XP_NUGGET_CHANCE),
-          CreateItem.of('2x create:experience_nugget', XP_NUGGET_CHANCE * 0.4)
-        ],
-        [inputId]
-      )
+      xpChance: isSoft ? 0.08 : 0.25,
+      xp2Multiplier: 2,
+      xp2Factor: isSoft ? 0.15 : 0.4,
+      // debug: true
     })
   })
 })

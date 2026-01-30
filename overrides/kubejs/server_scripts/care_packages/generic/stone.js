@@ -10,7 +10,9 @@ const STONE_CARE_PACKAGE_ITEM_IDS = [
   "minecraft:diorite",
   "minecraft:cobblestone",
   "minecraft:stone",
-  "ae2:sky_stone_block",
+  "biomeswevegone:dacite",
+  "biomeswevegone:white_dacite",
+  "biomeswevegone:red_rock",
 ];
 
 BlockEvents.rightClicked(STONE_CARE_PACKAGE_BLOCK_ID, (event) => {
@@ -20,10 +22,10 @@ BlockEvents.rightClicked(STONE_CARE_PACKAGE_BLOCK_ID, (event) => {
   if (!player.isCrouching()) return;
   if (!player.mainHandItem.isEmpty()) return;
 
-  const chosen = pickRandomUnique(STONE_CARE_PACKAGE_ITEM_IDS, 2);
+  const chosen = pickRandomUnique(STONE_CARE_PACKAGE_ITEM_IDS, 3);
 
   for (let i = 0; i < chosen.length; i++) {
-    block.popItem(Item.of(chosen[i], 64 * 4));
+    block.popItem(Item.of(chosen[i], 64 * 3));
   }
 
   global.CarePackageFX.generic(

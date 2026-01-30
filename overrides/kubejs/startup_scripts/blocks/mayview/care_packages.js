@@ -69,6 +69,11 @@ StartupEvents.registry("block", function (event) {
       id: "delibird_present",
       displayName: "Delibird Present",
       soundType: "wool",
+    },
+    {
+      id: "assorted_dyed_blocks_care_package",
+      displayName: "Assorted Dyed Blocks Care Package",
+      soundType: "wool",
     }
   ];
 

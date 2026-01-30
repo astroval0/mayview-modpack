@@ -1,3 +1,6 @@
+// kubejs/server_scripts/recipes/create/crushing/addCreateArmorCrushing.js
+console.info('[Mayview] Vanilla armor crushing loaded')
+
 ServerEvents.recipes(event => {
   // Define yields per armor slot
   const armorYields = {
@@ -8,7 +11,7 @@ ServerEvents.recipes(event => {
   }
 
   // Define XP nugget output chance
-  const XP_NUGGET_CHANCE = 0.25   // 25% chance
+  const XP_CHANCE = 0.25   // 25% chance
 
   // Master list: explicit item IDs per slot
   const armorSets = [
@@ -62,8 +65,8 @@ ServerEvents.recipes(event => {
       event.recipes.create.crushing(
         [
           Item.of(set.output, count),
-          CreateItem.of('create:experience_nugget', XP_NUGGET_CHANCE),
-          CreateItem.of('2x create:experience_nugget', XP_NUGGET_CHANCE)
+          CreateItem.of('create:experience_nugget', XP_CHANCE),
+          CreateItem.of('2x create:experience_nugget', XP_CHANCE * 0.4)
         ],
         [inputId]
       )

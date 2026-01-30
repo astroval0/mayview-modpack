@@ -20,7 +20,5 @@ ServerEvents.recipes(event => {
         'create:bar_of_chocolate',
         Fluid.of('minecraft:milk', 1000)
         ]
-    ).heated()
-
-    
+    ).heated()    
 })

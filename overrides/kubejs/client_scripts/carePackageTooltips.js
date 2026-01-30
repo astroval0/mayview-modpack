@@ -12,6 +12,7 @@ ItemEvents.modifyTooltips((event) => {
     "kubejs:tier_one_create_care_package": [Text.aqua("Contains a collection of Create essentials!")],
     "kubejs:tier_two_create_care_package": [Text.aqua("Contains a collection of Create essentials!")],
     "kubejs:plushie_care_package": [Text.aqua("Contains a collection of plushies!")],
+    "kubejs:assorted_dyed_blocks_care_package": [Text.aqua("Contains an assortment of dyed items!")],
 
     // Pokemon Packages
     "kubejs:pokemon_gamba_package": [Text.aqua("Contains a random Pokémon!")],
