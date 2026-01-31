@@ -171,7 +171,7 @@
 		#Max enchantment level in Super Enchanting will be extended by this value
 		# Default: 1
 		# Range: 0 ~ 255
-		enchantmentMaxLevelExtension = 1
+		enchantmentMaxLevelExtension = 2
 		#.
 		#If Super Enchanting and Super Forging ignores enchantment compatibility
 		ignoreEnchantmentCompatibility = true

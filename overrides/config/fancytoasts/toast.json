@@ -1,0 +1,10 @@
+{
+  "textureId": "fancytoasts:config/textures/mayview_nature.png",
+  "animationId": "fancytoasts:animations/toast/standard",
+  "soundIds": {
+    "TASK": "mayview:toast.task",
+    "GOAL": "minecraft:entity.firework_rocket.twinkle_far",
+    "CHALLENGE": "minecraft:ui.toast.challenge_complete"
+  },
+  "version": 1
+}

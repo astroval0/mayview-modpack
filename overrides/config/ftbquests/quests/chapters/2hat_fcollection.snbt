@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "wood_rounded"
 	filename: "2hat_fcollection"
 	group: "13E63132F42CE474"
 	icon: {
@@ -11,6 +11,10 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "herbalbrews:top_hat"
+			}
+			icon_scale: 0.9d
 			id: "10227DDB3E33B428"
 			optional: true
 			rewards: [{
@@ -21,7 +25,8 @@
 				}
 				type: "item"
 			}]
-			size: 1.5d
+			shape: "wood_quad"
+			size: 2.0d
 			tasks: [{
 				id: "4256E4F0955805B7"
 				type: "checkmark"
@@ -39,6 +44,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5FC8274E1DE68320"
 				item: { count: 1, id: "simplehats:hatbag_common" }
@@ -57,6 +63,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "018095157B50E009"
 				item: { count: 1, id: "simplehats:hatbag_uncommon" }
@@ -75,8 +82,9 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
-				id: "14789284D7929355"
+				id: "5A83A71081F64938"
 				item: { count: 1, id: "simplehats:hatbag_rare" }
 				type: "item"
 			}]
@@ -85,6 +93,7 @@
 		}
 		{
 			id: "69B21D947864A043"
+			size: 1.1d
 			tasks: [{
 				id: "7C44CAB463D94611"
 				item: { count: 1, id: "minecraft:shears" }
@@ -104,6 +113,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "48553B7DDBAA0114"
 				item: { count: 1, id: "simplehats:hatscraps_common" }
@@ -123,6 +133,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "08A52CF0DBF0E9C2"
 				item: { count: 1, id: "simplehats:hatscraps_uncommon" }
@@ -142,6 +153,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "347BB87416968651"
 				item: { count: 1, id: "simplehats:hatscraps_rare" }
@@ -160,6 +172,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "685A111489F3C382"
 				item: { count: 1, id: "simplehats:hatbag_epic" }
@@ -175,6 +188,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7BA6A5F29C01B6E8"
 				item: { count: 1, id: "simplehats:babyturtle" }
@@ -190,6 +204,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "30E26EE1FD8A3A93"
 				item: { count: 1, id: "simplehats:bandana" }
@@ -205,6 +220,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "47B2C498D495AB57"
 				item: { count: 1, id: "simplehats:bandanargb" }
@@ -220,6 +236,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "58918DF89C0E21E1"
 				item: { count: 1, id: "simplehats:baseballhat" }
@@ -235,6 +252,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "4BC6169C8931B1EF"
 				item: { count: 1, id: "simplehats:baseballhatrgb" }
@@ -250,6 +268,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "255C67DF2D6E7ED6"
 				item: { count: 1, id: "simplehats:beanie" }
@@ -265,6 +284,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6B747F8F2EF58CF2"
 				item: { count: 1, id: "simplehats:beaniergb" }
@@ -280,6 +300,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "568960C42220003F"
 				item: { count: 1, id: "simplehats:beehat" }
@@ -295,6 +316,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "630F4F8F5A2F508C"
 				item: { count: 1, id: "simplehats:bicorne" }
@@ -310,6 +332,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "76CC30B2583E0B3A"
 				item: { count: 1, id: "simplehats:bigbrain" }
@@ -325,6 +348,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1A3A9ECB409BABBA"
 				item: { count: 1, id: "simplehats:bigcrown" }
@@ -340,6 +364,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "64A3C99F01AB025A"
 				item: { count: 1, id: "simplehats:bigeyes" }
@@ -355,6 +380,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "56034306F198BCC3"
 				item: { count: 1, id: "simplehats:bigribbon" }
@@ -370,6 +396,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "49D89B62AA2696B7"
 				item: { count: 1, id: "simplehats:bigstevehead" }
@@ -385,6 +412,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "278794301D3509AD"
 				item: { count: 1, id: "simplehats:bluefireeye" }
@@ -400,6 +428,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3838BF4E6B3E96EB"
 				item: { count: 1, id: "simplehats:bowler" }
@@ -415,6 +444,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7F19B1B5F4DDCFE7"
 				item: { count: 1, id: "simplehats:breadhat" }
@@ -430,6 +460,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "05AD09B6BFED8D0B"
 				item: { count: 1, id: "simplehats:brownbrick" }
@@ -445,6 +476,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7A140968499C007F"
 				item: { count: 1, id: "simplehats:burgerhat" }
@@ -460,6 +492,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "79216DABAEFFD3AB"
 				item: { count: 1, id: "simplehats:caddycap" }
@@ -475,13 +508,14 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "027B639391D977AB"
 				item: { count: 1, id: "simplehats:camera" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: -4.5d
+			y: -11.5d
 		}
 		{
 			id: "12D3B6346811ED00"
@@ -490,6 +524,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "213CDD36E346BEAF"
 				item: { count: 1, id: "simplehats:camerabeard" }
@@ -505,6 +540,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "56516B7E245E1303"
 				item: { count: 1, id: "simplehats:candleonhead" }
@@ -520,6 +556,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3174531F80F6073E"
 				item: { count: 1, id: "simplehats:carrotonstick" }
@@ -535,6 +572,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "4183B37780428B9A"
 				item: { count: 1, id: "simplehats:cartoonegg" }
@@ -550,6 +588,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "77BD18D735C8EF22"
 				item: { count: 1, id: "simplehats:cheeseslice" }
@@ -565,6 +604,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "380584460D0CDCB1"
 				item: { count: 1, id: "simplehats:chefshat" }
@@ -580,6 +620,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "04356FEDDD1AC837"
 				item: { count: 1, id: "simplehats:chickenhead" }
@@ -595,6 +636,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "74865FF99E30DBFE"
 				item: { count: 1, id: "simplehats:chickenonhead" }
@@ -610,6 +652,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0103276C4B7CD26C"
 				item: { count: 1, id: "simplehats:clockface" }
@@ -625,6 +668,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3410DFA49A13C2B8"
 				item: { count: 1, id: "simplehats:cowboy" }
@@ -640,6 +684,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7337BDD7913AA0E4"
 				item: { count: 1, id: "simplehats:cowboyrgb" }
@@ -655,6 +700,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7350048FFEB31E1D"
 				item: { count: 1, id: "simplehats:crabonhead" }
@@ -670,6 +716,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "545D4DC07DD5CC74"
 				item: { count: 1, id: "simplehats:crown" }
@@ -685,6 +732,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5AA14EF8A7BC7E2E"
 				item: { count: 1, id: "simplehats:cuphead" }
@@ -700,6 +748,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "13048A34B3557629"
 				item: { count: 1, id: "simplehats:cyclopseye" }
@@ -715,6 +764,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0EE25BF2734B6F14"
 				item: { count: 1, id: "simplehats:dairyqueen" }
@@ -730,6 +780,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5365CB4CE21399C0"
 				item: { count: 1, id: "simplehats:dangereqsue" }
@@ -745,6 +796,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7C7C0DEB778F4073"
 				item: { count: 1, id: "simplehats:demoneyes" }
@@ -760,6 +812,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "19672AA070F2302D"
 				item: { count: 1, id: "simplehats:demonhorns" }
@@ -775,6 +828,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1E8D0B55C4B55E1C"
 				item: { count: 1, id: "simplehats:digger" }
@@ -790,6 +844,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6266503456DDDDEB"
 				item: { count: 1, id: "simplehats:dimmahat" }
@@ -805,6 +860,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6C58A8992B7F7DB0"
 				item: { count: 1, id: "simplehats:discoball" }
@@ -820,6 +876,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1100730D8819F5AD"
 				item: { count: 1, id: "simplehats:disguise" }
@@ -835,6 +892,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "507E48CBDF04BDBB"
 				item: { count: 1, id: "simplehats:doctorhat" }
@@ -850,6 +908,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2BAD6B35FBFAC876"
 				item: { count: 1, id: "simplehats:dorkglassesandteeth" }
@@ -865,6 +924,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "13B6A865EFC15823"
 				item: { count: 1, id: "simplehats:doubletake" }
@@ -880,6 +940,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "756738BDA0701CBF"
 				item: { count: 1, id: "simplehats:dragonhead" }
@@ -895,6 +956,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6A3B5F1DB12AE864"
 				item: { count: 1, id: "simplehats:dragonskull" }
@@ -910,6 +972,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "56DAA23D0D0644D5"
 				item: { count: 1, id: "simplehats:dragonskullender" }
@@ -925,6 +988,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "77665A49000C9370"
 				item: { count: 1, id: "simplehats:drinkinhat" }
@@ -940,6 +1004,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "70BC5814E8787323"
 				item: { count: 1, id: "simplehats:dumhat" }
@@ -955,6 +1020,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "15A6F28878120D16"
 				item: { count: 1, id: "simplehats:dwarfminerbeard" }
@@ -970,6 +1036,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5ACD9811B2D8BC4A"
 				item: { count: 1, id: "simplehats:easterhead" }
@@ -985,6 +1052,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "455E9E07CCB0F762"
 				item: { count: 1, id: "simplehats:elfhat" }
@@ -1000,6 +1068,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "66354584A0C11C4A"
 				item: { count: 1, id: "simplehats:explorerhat" }
@@ -1015,6 +1084,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "03F64A33AD244E45"
 				item: { count: 1, id: "simplehats:eyepatch" }
@@ -1030,6 +1100,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0C2D8592338AE921"
 				item: { count: 1, id: "simplehats:fakeblight" }
@@ -1045,6 +1116,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "315E2FA7E24F981C"
 				item: { count: 1, id: "simplehats:fakefire" }
@@ -1060,6 +1132,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3296711769DBC612"
 				item: { count: 1, id: "simplehats:finnhood" }
@@ -1075,6 +1148,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3CD2C98A759D55A7"
 				item: { count: 1, id: "simplehats:fishonhead" }
@@ -1090,6 +1164,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "27CAD9C3A4105B58"
 				item: { count: 1, id: "simplehats:flies" }
@@ -1105,6 +1180,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "4C6EE9B125C999A2"
 				item: { count: 1, id: "simplehats:floatinghearts" }
@@ -1120,6 +1196,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6BF624CEB6688E91"
 				item: { count: 1, id: "simplehats:floatingstar" }
@@ -1135,6 +1212,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7099803382FAA42F"
 				item: { count: 1, id: "simplehats:flowercrown" }
@@ -1150,6 +1228,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2E9BD36C9B1C97A8"
 				item: { count: 1, id: "simplehats:floweronhead" }
@@ -1165,6 +1244,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "046011B5BDB23DFA"
 				item: { count: 1, id: "simplehats:foxhat" }
@@ -1180,6 +1260,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7D9779B47A7F81B0"
 				item: { count: 1, id: "simplehats:fro" }
@@ -1195,6 +1276,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "666145E5CFE01DEC"
 				item: { count: 1, id: "simplehats:frozenhead" }
@@ -1210,6 +1292,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "22300EE9F7F63874"
 				item: { count: 1, id: "simplehats:fullironhelm" }
@@ -1225,6 +1308,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "737BA1E5E43DB8C5"
 				item: { count: 1, id: "simplehats:goggles" }
@@ -1240,6 +1324,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7B25BDF2154D5329"
 				item: { count: 1, id: "simplehats:grandmadisguise" }
@@ -1255,6 +1340,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "4A8A70998FD0D136"
 				item: { count: 1, id: "simplehats:greenbirb" }
@@ -1270,6 +1356,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6D609EFAAF3496C0"
 				item: { count: 1, id: "simplehats:halo" }
@@ -1285,6 +1372,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "01C85B280DB18FD3"
 				item: { count: 1, id: "simplehats:headphonesblue" }
@@ -1300,6 +1388,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "086CDBEAA91FF7B7"
 				item: { count: 1, id: "simplehats:headshot" }
@@ -1315,6 +1404,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "60C48B7F9BEA8EFA"
 				item: { count: 1, id: "simplehats:holyhead" }
@@ -1330,6 +1420,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "00D6714091ECFFBF"
 				item: { count: 1, id: "simplehats:horsemask" }
@@ -1345,6 +1436,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "438C76055F0AEB7A"
 				item: { count: 1, id: "simplehats:hosthat" }
@@ -1360,13 +1452,14 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "23F2B7E2976ACCAB"
 				item: { count: 1, id: "simplehats:icedragonskull" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: -4.0d
+			y: -12.5d
 		}
 		{
 			id: "3FC58EDA67B4E71A"
@@ -1375,6 +1468,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "53E7CA11ABCAA6BD"
 				item: { count: 1, id: "simplehats:jesterhat" }
@@ -1390,6 +1484,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "631CFF909B9CC2C3"
 				item: { count: 1, id: "simplehats:kirbymouthful" }
@@ -1405,6 +1500,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "69215F465D65B34F"
 				item: { count: 1, id: "simplehats:largehorns" }
@@ -1420,6 +1516,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6F2C322E11465A1E"
 				item: { count: 1, id: "simplehats:lilbow" }
@@ -1435,6 +1532,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "299F6D03C8463525"
 				item: { count: 1, id: "simplehats:madscientist" }
@@ -1450,6 +1548,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0BF9E97D06C24EC8"
 				item: { count: 1, id: "simplehats:magikarp" }
@@ -1465,6 +1564,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "172947F3DC2ADE27"
 				item: { count: 1, id: "simplehats:megamanhat" }
@@ -1480,6 +1580,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "064601853605FCED"
 				item: { count: 1, id: "simplehats:mohawk" }
@@ -1495,6 +1596,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3CF3B97FDCD8C74F"
 				item: { count: 1, id: "simplehats:monkeyking" }
@@ -1504,27 +1606,13 @@
 			y: 10.5d
 		}
 		{
-			id: "0CAD0DE2505FA240"
-			rewards: [{
-				id: "223FFCF19DFA468A"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "016D83B482DEAAF8"
-				item: { components: { "ftbquests:missing_item": "horseexpert:monocle" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 5.5d
-		}
-		{
 			id: "069A4BFC38D80A75"
 			rewards: [{
 				id: "11A31616E1D0D04F"
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "08B74AA7EC8D3DEA"
 				item: { count: 1, id: "simplehats:moreeyes" }
@@ -1540,6 +1628,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "786BC54A86A8995D"
 				item: { count: 1, id: "simplehats:nekoears" }
@@ -1555,6 +1644,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "384724126EEF2AE8"
 				item: { count: 1, id: "simplehats:paperbag" }
@@ -1570,6 +1660,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "09DA1AFDF077B482"
 				item: { count: 1, id: "simplehats:partyhat" }
@@ -1585,6 +1676,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2A6410FB539B6472"
 				item: { count: 1, id: "simplehats:paypay" }
@@ -1600,6 +1692,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "00BCA4655B5949C9"
 				item: { count: 1, id: "simplehats:penguinbaby" }
@@ -1615,6 +1708,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "559021079C457AB2"
 				item: { count: 1, id: "simplehats:penguinhat" }
@@ -1630,6 +1724,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0344A069350B1CE7"
 				item: { count: 1, id: "simplehats:pighead" }
@@ -1645,6 +1740,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "056138A60B12C9CF"
 				item: { count: 1, id: "simplehats:pog" }
@@ -1660,6 +1756,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "211B4D7B7E7A754C"
 				item: { count: 1, id: "simplehats:pohatoe" }
@@ -1675,13 +1772,14 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "069FBD8760B46B89"
 				item: { count: 1, id: "simplehats:policebucket" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -11.5d
+			x: -3.0d
+			y: -12.5d
 		}
 		{
 			id: "6A3308C39D397BA1"
@@ -1690,6 +1788,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5A3C14F831B62744"
 				item: { count: 1, id: "simplehats:policesiren" }
@@ -1705,6 +1804,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3E92F19DECAAB9FC"
 				item: { count: 1, id: "simplehats:poofballhat" }
@@ -1720,6 +1820,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5D1F66F3F0127FC2"
 				item: { count: 1, id: "simplehats:poofballrgb" }
@@ -1735,6 +1836,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5DC231C331DFA13C"
 				item: { count: 1, id: "simplehats:popehat" }
@@ -1750,6 +1852,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0A6D312447C36338"
 				item: { count: 1, id: "simplehats:potionhead" }
@@ -1765,6 +1868,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "08C508787A1FCC24"
 				item: { count: 1, id: "simplehats:propelhat" }
@@ -1780,6 +1884,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5442FEF71DC479C4"
 				item: { count: 1, id: "simplehats:questbook" }
@@ -1795,6 +1900,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3DC7D215249A871E"
 				item: { count: 1, id: "simplehats:rabbitonhead" }
@@ -1810,6 +1916,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2C96813A49CBDAA9"
 				item: { count: 1, id: "simplehats:rainboworbiters" }
@@ -1825,6 +1932,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "76FB3E8EC429C17C"
 				item: { count: 1, id: "simplehats:ranahat" }
@@ -1840,8 +1948,9 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
-				id: "7DB4049635AB2F52"
+				id: "61C5BDE8DEF8B633"
 				item: { count: 1, id: "simplehats:redeyes" }
 				type: "item"
 			}]
@@ -1855,6 +1964,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1987A1274CA11523"
 				item: { count: 1, id: "simplehats:redstache" }
@@ -1870,6 +1980,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6D97104B77FF432D"
 				item: { count: 1, id: "simplehats:rgbbigribbon" }
@@ -1885,6 +1996,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0C0877EA5BE24145"
 				item: { count: 1, id: "simplehats:rgbbowler" }
@@ -1900,6 +2012,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "530E760B60460164"
 				item: { count: 1, id: "simplehats:rgbdragonskull" }
@@ -1915,6 +2028,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5C329DE25FA12A80"
 				item: { count: 1, id: "simplehats:rgbdrinkinhat" }
@@ -1930,6 +2044,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2479E089D95353D8"
 				item: { count: 1, id: "simplehats:rgbeasterhead" }
@@ -1945,6 +2060,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "17EDEF7049AAFD9C"
 				item: { count: 1, id: "simplehats:rgbfullhelm" }
@@ -1960,6 +2076,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3A427000D946C599"
 				item: { count: 1, id: "simplehats:rgbpartyhat" }
@@ -1975,6 +2092,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7F34AC92217D2256"
 				item: { count: 1, id: "simplehats:rgbsmallbowler" }
@@ -1990,6 +2108,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "681A66AE5CA2F56F"
 				item: { count: 1, id: "simplehats:rgbsunglasses" }
@@ -2005,6 +2124,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0768A13825BB74C3"
 				item: { count: 1, id: "simplehats:rgbtoptophathat" }
@@ -2020,6 +2140,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "38D5E55260F0D854"
 				item: { count: 1, id: "simplehats:rgbushanka" }
@@ -2035,6 +2156,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "36A169346164CC57"
 				item: { count: 1, id: "simplehats:rock" }
@@ -2050,6 +2172,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "00EEB7B0B698CBF8"
 				item: { count: 1, id: "simplehats:rubbernipple" }
@@ -2065,6 +2188,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "115FA1A82BF926F2"
 				item: { count: 1, id: "simplehats:sausage" }
@@ -2080,6 +2204,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2C0531160CDB793C"
 				item: { count: 1, id: "simplehats:shakehat" }
@@ -2095,6 +2220,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "242ECD21E4B39485"
 				item: { count: 1, id: "simplehats:sheep" }
@@ -2110,6 +2236,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5E0FE733B1EB7949"
 				item: { count: 1, id: "simplehats:shrekears" }
@@ -2125,8 +2252,9 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
-				id: "2A5077D7488A0F51"
+				id: "063CF61BC2C81048"
 				item: { count: 1, id: "simplehats:shroomcap" }
 				type: "item"
 			}]
@@ -2140,6 +2268,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "602DA6A63DB11B34"
 				item: { count: 1, id: "simplehats:simsgem" }
@@ -2155,6 +2284,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2938BFAB1575A8B5"
 				item: { count: 1, id: "simplehats:smokingpipe" }
@@ -2170,6 +2300,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6CC78F784C843032"
 				item: { count: 1, id: "simplehats:snowmanbaby" }
@@ -2185,6 +2316,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6877255F6809522F"
 				item: { count: 1, id: "simplehats:sombrero" }
@@ -2200,6 +2332,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "17FC219AC362B463"
 				item: { count: 1, id: "simplehats:sonichood" }
@@ -2215,6 +2348,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6838123F752D5CC4"
 				item: { count: 1, id: "simplehats:spadesoldier" }
@@ -2230,6 +2364,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1A3E716CB7317E2D"
 				item: { count: 1, id: "simplehats:springer" }
@@ -2245,6 +2380,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7D31FD76F053E35F"
 				item: { count: 1, id: "simplehats:sprout" }
@@ -2260,6 +2396,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7C5F95CEB4CF0E2C"
 				item: { count: 1, id: "simplehats:spyzombie" }
@@ -2275,6 +2412,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "4B7AF38ABE092A03"
 				item: { count: 1, id: "simplehats:stress" }
@@ -2290,6 +2428,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5FF2F4A4B68321AE"
 				item: { count: 1, id: "simplehats:summerhat" }
@@ -2305,6 +2444,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "44AA0BDDC9D10AFB"
 				item: { count: 1, id: "simplehats:sunglasses" }
@@ -2320,6 +2460,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "51C060A74021EACB"
 				item: { count: 1, id: "simplehats:sunglassesbig" }
@@ -2335,6 +2476,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "788509A37F3E226A"
 				item: { count: 1, id: "simplehats:supersandhat" }
@@ -2350,6 +2492,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6C50BF59703216F9"
 				item: { count: 1, id: "simplehats:swimmer" }
@@ -2365,6 +2508,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "39538DD8D3C5872D"
 				item: { count: 1, id: "simplehats:tinkerhat" }
@@ -2380,6 +2524,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0D08ED6B08EFD69C"
 				item: { count: 1, id: "simplehats:topcathat" }
@@ -2395,6 +2540,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "79E9171F9F751728"
 				item: { count: 1, id: "simplehats:tophat" }
@@ -2410,6 +2556,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6E3287FDE68D0A6C"
 				item: { count: 1, id: "simplehats:toptophathat" }
@@ -2425,6 +2572,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "07382A6E217CD0FE"
 				item: { count: 1, id: "simplehats:triangleshades" }
@@ -2440,6 +2588,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "34928C1961816DDC"
 				item: { count: 1, id: "simplehats:tricorne" }
@@ -2455,6 +2604,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "650482FC4167E730"
 				item: { count: 1, id: "simplehats:tvhead" }
@@ -2470,6 +2620,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7A69555826134043"
 				item: { count: 1, id: "simplehats:unicornhorn" }
@@ -2485,6 +2636,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "34948206555F2270"
 				item: { count: 1, id: "simplehats:ushanka" }
@@ -2500,6 +2652,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "4ED300BFD2611903"
 				item: { count: 1, id: "simplehats:vikinghatbeard" }
@@ -2515,6 +2668,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6FC6035B3E486563"
 				item: { count: 1, id: "simplehats:villagernose" }
@@ -2528,8 +2682,9 @@
 			rewards: [{
 				id: "6BD46486DEACC733"
 				type: "xp"
-				xp: 75
+				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7C73AE54B98AB50B"
 				item: { count: 1, id: "simplehats:winghat" }
@@ -2545,6 +2700,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0E6265AB7205E820"
 				item: { count: 1, id: "simplehats:acornhat" }
@@ -2560,6 +2716,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1E0BB25E33233B82"
 				item: { count: 1, id: "simplehats:aegishat" }
@@ -2575,6 +2732,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "147F8DE5537E00B4"
 				item: { count: 1, id: "simplehats:alienphil" }
@@ -2590,6 +2748,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "166C75CE40FF62CE"
 				item: { count: 1, id: "simplehats:amalgalichhat" }
@@ -2605,6 +2764,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "619FDEB857CF0780"
 				item: { count: 1, id: "simplehats:angrymask" }
@@ -2620,6 +2780,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5BC837E7868042CE"
 				item: { count: 1, id: "simplehats:antlers" }
@@ -2635,6 +2796,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "49802B7D71D230A7"
 				item: { count: 1, id: "simplehats:apple" }
@@ -2650,6 +2812,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "711430684D451D3C"
 				item: { count: 1, id: "simplehats:artsy" }
@@ -2665,6 +2828,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "12FB47232B7EB8B8"
 				item: { count: 1, id: "simplehats:babydolphin" }
@@ -2680,6 +2844,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6B32CDBAF2065344"
 				item: { count: 1, id: "simplehats:artsy_doll" }
@@ -2695,6 +2860,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "27B9D5607EF2DEC8"
 				item: { count: 1, id: "simplehats:azumanga_hat" }
@@ -2710,6 +2876,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "118A4750C4417B11"
 				item: { count: 1, id: "simplehats:beret_ribbon" }
@@ -2725,6 +2892,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0CA69B5AA12C6B4B"
 				item: { count: 1, id: "simplehats:bucket" }
@@ -2740,6 +2908,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "65E1546568A52A19"
 				item: { count: 1, id: "simplehats:burning_m_bison" }
@@ -2753,8 +2922,9 @@
 			rewards: [{
 				id: "2A5D8118132A9889"
 				type: "xp"
-				xp: 20
+				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "27706AE20C4A83B5"
 				item: { count: 1, id: "simplehats:chalk_stick" }
@@ -2770,6 +2940,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3D419B010D4A9F50"
 				item: { count: 1, id: "simplehats:chi_ears" }
@@ -2785,6 +2956,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0D47D8B3BAE04521"
 				item: { count: 1, id: "simplehats:circular_glasses" }
@@ -2800,6 +2972,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "407C7A2DEFC48856"
 				item: { count: 1, id: "simplehats:cucumbereyemask" }
@@ -2815,6 +2988,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "22E5DBB4F8B4AA15"
 				item: { count: 1, id: "simplehats:dejiko" }
@@ -2830,6 +3004,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "14DCC06969EBFD5E"
 				item: { count: 1, id: "simplehats:fez" }
@@ -2845,6 +3020,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0C146F798BCECB99"
 				item: { count: 1, id: "simplehats:fishing_hat" }
@@ -2860,6 +3036,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2B15156EE72FA7E0"
 				item: { count: 1, id: "simplehats:lightning_eyes" }
@@ -2875,6 +3052,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "3EF095408E77DAE2"
 				item: { count: 1, id: "simplehats:longfoxears" }
@@ -2890,6 +3068,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "1EBB7115FEA49F93"
 				item: { count: 1, id: "simplehats:milady_doll" }
@@ -2905,6 +3084,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6A6B351453BE3DB3"
 				item: { count: 1, id: "simplehats:nyan_doll" }
@@ -2920,6 +3100,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "040DBB3DAC47FA24"
 				item: { count: 1, id: "simplehats:orange_hat" }
@@ -2935,6 +3116,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "024CE72B3B7AFF43"
 				item: { count: 1, id: "simplehats:peppino" }
@@ -2950,6 +3132,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5DEE81B31C34D573"
 				item: { count: 1, id: "simplehats:pom_moog" }
@@ -2965,6 +3148,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7AD59B13BFA85CEF"
 				item: { count: 1, id: "simplehats:puchiko" }
@@ -2980,6 +3164,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "194C010259B34D52"
 				item: { count: 1, id: "simplehats:rabi_en_rose" }
@@ -2995,6 +3180,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "02DBC39DAE2135C5"
 				item: { count: 1, id: "simplehats:raincloud" }
@@ -3010,6 +3196,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "28924F15F5C6C645"
 				item: { count: 1, id: "simplehats:scouter" }
@@ -3025,6 +3212,7 @@
 				type: "xp"
 				xp: 20
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "2C7BCD03D13CA13A"
 				item: { count: 1, id: "simplehats:sleepeyemask" }
@@ -3040,6 +3228,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7EC65CC2487A5E03"
 				item: { count: 1, id: "simplehats:sport_sunglasses" }
@@ -3055,6 +3244,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "7EFEFDF2F26F1106"
 				item: { count: 1, id: "simplehats:strawberry_hat" }
@@ -3070,6 +3260,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "5EC51A3736D48F76"
 				item: { count: 1, id: "simplehats:teddy_bear" }
@@ -3085,6 +3276,7 @@
 				type: "xp"
 				xp: 75
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "01F9790551EB90A4"
 				item: { count: 1, id: "simplehats:the_noise" }
@@ -3098,8 +3290,9 @@
 			rewards: [{
 				id: "7E599BAA41D142A2"
 				type: "xp"
-				xp: 50
+				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "0F4C88DAFCA2FAAD"
 				item: { count: 1, id: "simplehats:toy_story_alien" }
@@ -3115,6 +3308,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "27F80C13289EFDB5"
 				item: { count: 1, id: "simplehats:twilight_doll" }
@@ -3130,6 +3324,7 @@
 				type: "xp"
 				xp: 50
 			}]
+			size: 1.1d
 			tasks: [{
 				id: "6C67A9C92891B864"
 				item: { count: 1, id: "simplehats:worms_mine" }
@@ -3140,8 +3335,17 @@
 		}
 		{
 			id: "55401BD8251A0908"
+			rewards: [{
+				id: "2A040F306B6059D6"
+				item: {
+					count: 1
+					id: "simplehats:hatbag_easter"
+				}
+				type: "item"
+			}]
+			size: 1.1d
 			tasks: [{
-				id: "2139730CC0D2911D"
+				id: "0E68F9BD237C1B45"
 				item: { count: 1, id: "simplehats:hatbag_easter" }
 				type: "item"
 			}]
@@ -3150,6 +3354,15 @@
 		}
 		{
 			id: "76FFE32E301C36AF"
+			rewards: [{
+				id: "7239216728E40E92"
+				item: {
+					count: 1
+					id: "simplehats:hatbag_summer"
+				}
+				type: "item"
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "0F60C3E0B905538E"
 				item: { count: 1, id: "simplehats:hatbag_summer" }
@@ -3160,6 +3373,15 @@
 		}
 		{
 			id: "54930A35244D19AF"
+			rewards: [{
+				id: "05A84C7E553AEE1D"
+				item: {
+					count: 1
+					id: "simplehats:hatbag_halloween"
+				}
+				type: "item"
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "4007E8A7317D7004"
 				item: { count: 1, id: "simplehats:hatbag_halloween" }
@@ -3170,6 +3392,15 @@
 		}
 		{
 			id: "73407D6F69DAE0F9"
+			rewards: [{
+				id: "58F89C5A7902B59D"
+				item: {
+					count: 1
+					id: "simplehats:hatbag_festive"
+				}
+				type: "item"
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "5E1A8AC4910DDD40"
 				item: { count: 1, id: "simplehats:hatbag_festive" }
@@ -3179,4 +3410,5 @@
 			y: 0.0d
 		}
 	]
+	tags: ["mayviewquests"]
 }

@@ -21,4 +21,4 @@
 	fluid_per_use = 100
 	# Default: 5
 	# Range: 1 ~ 32
-	horizontal_range = 5
+	horizontal_range = 9

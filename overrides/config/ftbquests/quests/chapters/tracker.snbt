@@ -1,19 +1,44 @@
 {
 	autofocus_id: "2FD4C17D11C1851D"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "dex2"
 	filename: "tracker"
 	group: "379FE802613ABCBC"
 	icon: {
 		id: "mega_showdown:red_orb"
 	}
 	id: "540F372A7BD4CFCC"
+	images: [
+		{
+			height: 1.0d
+			hover: ["Rename titles and add rewards"]
+			image: "ftbquests:textures/gui/collect_rewards.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "nochatreports:textures/gui/sprites/encryption/crossmark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			id: "2FD4C17D11C1851D"
-			size: 1.5d
+			rewards: [{
+				id: "27376959D510FFC2"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "dex1"
+			size: 2.0d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/root"
 				criterion: ""
@@ -26,6 +51,12 @@
 		{
 			dependencies: ["2FD4C17D11C1851D"]
 			id: "3FD572CB67ABF2E9"
+			rewards: [{
+				id: "34E7DA6B13BD503A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/find_dynamax_structure"
 				criterion: ""
@@ -37,7 +68,14 @@
 		}
 		{
 			dependencies: ["2FD4C17D11C1851D"]
+			icon_scale: 0.9d
 			id: "07ABEDE97F847A49"
+			rewards: [{
+				id: "379DDC38D3A2D41D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/find_mega_structure"
 				criterion: ""
@@ -49,7 +87,14 @@
 		}
 		{
 			dependencies: ["2FD4C17D11C1851D"]
+			icon_scale: 0.9d
 			id: "7BC075BF0EBC836C"
+			rewards: [{
+				id: "413EC42423EA0DA9"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/rotom/rotom_appliance"
 				criterion: ""
@@ -61,7 +106,14 @@
 		}
 		{
 			dependencies: ["2FD4C17D11C1851D"]
+			icon_scale: 0.85d
 			id: "323D351D22E4A51C"
+			rewards: [{
+				id: "2E1D2BC822847D4A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/bond/ash_cap_bond"
 				criterion: ""
@@ -74,6 +126,12 @@
 		{
 			dependencies: ["2FD4C17D11C1851D"]
 			id: "7302F3C75798860D"
+			rewards: [{
+				id: "5155B253C7EE23A4"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/find_z_structure"
 				criterion: ""
@@ -86,6 +144,12 @@
 		{
 			dependencies: ["2FD4C17D11C1851D"]
 			id: "364AD0AE666BDB57"
+			rewards: [{
+				id: "7DF878DD0631FC1D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/tera/get_tera_orb"
 				criterion: ""
@@ -97,7 +161,14 @@
 		}
 		{
 			dependencies: ["3FD572CB67ABF2E9"]
+			icon_scale: 1.2d
 			id: "17C7BCEA778A8639"
+			rewards: [{
+				id: "0653500B988BA94D"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/find_wishing_star"
 				criterion: ""
@@ -110,6 +181,12 @@
 		{
 			dependencies: ["07ABEDE97F847A49"]
 			id: "49A94D269ECCB665"
+			rewards: [{
+				id: "180DEC336907461F"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/find_raw_megastone"
 				criterion: ""
@@ -122,6 +199,12 @@
 		{
 			dependencies: ["07ABEDE97F847A49"]
 			id: "531A85415D938BA9"
+			rewards: [{
+				id: "3845B0B515888917"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/find_keystone"
 				criterion: ""
@@ -133,7 +216,14 @@
 		}
 		{
 			dependencies: ["7BC075BF0EBC836C"]
+			icon_scale: 0.9d
 			id: "1903C6BFCD6A4A8B"
+			rewards: [{
+				id: "630F4467A09FAFD2"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/rotom/rotom_form_change"
 				criterion: ""
@@ -146,6 +236,12 @@
 		{
 			dependencies: ["323D351D22E4A51C"]
 			id: "12DFFE0024D6E7BC"
+			rewards: [{
+				id: "63C2B7B6159C8F4C"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/bond/ash_battle_bond"
 				criterion: ""
@@ -157,7 +253,14 @@
 		}
 		{
 			dependencies: ["7302F3C75798860D"]
+			icon_scale: 0.9d
 			id: "7A9274DD78AF185C"
+			rewards: [{
+				id: "10C1D85F70D57198"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/get_blank_move"
 				criterion: ""
@@ -169,7 +272,14 @@
 		}
 		{
 			dependencies: ["7302F3C75798860D"]
+			icon_scale: 0.9d
 			id: "124A6CEF3DB7C01F"
+			rewards: [{
+				id: "1B630E03AF09B219"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/get_sparkling_stone"
 				criterion: ""
@@ -182,6 +292,12 @@
 		{
 			dependencies: ["364AD0AE666BDB57"]
 			id: "119998BF964FD8FE"
+			rewards: [{
+				id: "080730591388AF3F"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/tera/change_tera"
 				criterion: ""
@@ -194,6 +310,12 @@
 		{
 			dependencies: ["364AD0AE666BDB57"]
 			id: "045560B3BFE828F9"
+			rewards: [{
+				id: "156F9B8548C9399B"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/tera/terastallized"
 				criterion: ""
@@ -205,7 +327,14 @@
 		}
 		{
 			dependencies: ["17C7BCEA778A8639"]
+			icon_scale: 1.1d
 			id: "50FADB377527FCEB"
+			rewards: [{
+				id: "7F0752C80CB3F3C7"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/get_power_spot"
 				criterion: ""
@@ -217,7 +346,14 @@
 		}
 		{
 			dependencies: ["17C7BCEA778A8639"]
+			icon_scale: 0.9d
 			id: "0CF751CFA61BED46"
+			rewards: [{
+				id: "26264778768F4B3F"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/get_dynamax_band"
 				criterion: ""
@@ -230,6 +366,12 @@
 		{
 			dependencies: ["49A94D269ECCB665"]
 			id: "2B9F6235932D7B54"
+			rewards: [{
+				id: "5AB258A72EDEBA6A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/get_any_mega_stone"
 				criterion: ""
@@ -241,7 +383,14 @@
 		}
 		{
 			dependencies: ["531A85415D938BA9"]
+			icon_scale: 0.9d
 			id: "25A6B64C14DA3789"
+			rewards: [{
+				id: "7F29E2DE71960646"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/get_any_mega_bracelet"
 				criterion: ""
@@ -253,7 +402,14 @@
 		}
 		{
 			dependencies: ["12DFFE0024D6E7BC"]
+			icon_scale: 1.3d
 			id: "64C229C2CA3089AD"
+			rewards: [{
+				id: "5AFDC3BCC5FBFC05"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/bond/ash_greninja"
 				criterion: ""
@@ -265,7 +421,14 @@
 		}
 		{
 			dependencies: ["7A9274DD78AF185C"]
+			icon_scale: 0.9d
 			id: "659D6829FEEB8085"
+			rewards: [{
+				id: "1F06C87696408D2A"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/get_z_move"
 				criterion: ""
@@ -277,7 +440,14 @@
 		}
 		{
 			dependencies: ["124A6CEF3DB7C01F"]
+			icon_scale: 0.9d
 			id: "396225ECFA2D7D00"
+			rewards: [{
+				id: "531633B03ABFE908"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/get_z_ring"
 				criterion: ""
@@ -290,6 +460,12 @@
 		{
 			dependencies: ["119998BF964FD8FE"]
 			id: "4F85ADE0481AFD26"
+			rewards: [{
+				id: "735A6D4E4D403CF7"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/tera/change_tera_stellar"
 				criterion: ""
@@ -301,7 +477,14 @@
 		}
 		{
 			dependencies: ["0CF751CFA61BED46"]
+			icon_scale: 0.9d
 			id: "09D21A077A30DC5E"
+			rewards: [{
+				id: "1F4A66455EF012FD"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/dynamax_candy_max"
 				criterion: ""
@@ -314,6 +497,12 @@
 		{
 			dependencies: ["0CF751CFA61BED46"]
 			id: "7A18D17DD6205CA6"
+			rewards: [{
+				id: "6A0B66DA80BD85FF"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/gigantamax"
 				criterion: ""
@@ -325,7 +514,14 @@
 		}
 		{
 			dependencies: ["0CF751CFA61BED46"]
+			icon_scale: 0.9d
 			id: "4E34326C9CDBC5DB"
+			rewards: [{
+				id: "775D1D8B33CD27ED"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/dynamax/dynamax"
 				criterion: ""
@@ -338,6 +534,13 @@
 		{
 			dependencies: ["2B9F6235932D7B54"]
 			id: "0142F436D46032EF"
+			rewards: [{
+				id: "6CFD987F95DF14A9"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "dex3"
+			size: 2.0d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/craft_mega_stones"
 				criterion: ""
@@ -349,7 +552,14 @@
 		}
 		{
 			dependencies: ["25A6B64C14DA3789"]
+			icon_scale: 0.9d
 			id: "6D5071951CA6F068"
+			rewards: [{
+				id: "6AAD0AF64CF7F46E"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/mega_evolve"
 				criterion: ""
@@ -361,7 +571,14 @@
 		}
 		{
 			dependencies: ["659D6829FEEB8085"]
+			icon_scale: 0.9d
 			id: "73B82CDF2AF52C02"
+			rewards: [{
+				id: "4BE83EA57D5F4362"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/z_moves"
 				criterion: ""
@@ -373,7 +590,14 @@
 		}
 		{
 			dependencies: ["6D5071951CA6F068"]
+			icon_scale: 0.9d
 			id: "4EF0E4010FFDF107"
+			rewards: [{
+				id: "4F23A3D089845E06"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/craft_mega_bracelets"
 				criterion: ""
@@ -385,7 +609,14 @@
 		}
 		{
 			dependencies: ["73B82CDF2AF52C02"]
+			icon_scale: 0.9d
 			id: "2F6B2CE06045546D"
+			rewards: [{
+				id: "6B28CA7D0BFBA143"
+				type: "xp"
+				xp: 30
+			}]
+			size: 1.5d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/z/get_all_z_move"
 				criterion: ""
@@ -397,7 +628,15 @@
 		}
 		{
 			dependencies: ["4EF0E4010FFDF107"]
+			icon_scale: 0.9d
 			id: "4703BF014E4A294C"
+			rewards: [{
+				id: "4A22FB9A40B5761E"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "dex3"
+			size: 2.0d
 			tasks: [{
 				advancement: "mega_showdown:mega_showdown/mega/craft_mega_accessories"
 				criterion: ""
@@ -408,4 +647,5 @@
 			y: -12.0d
 		}
 	]
+	tags: ["cobblemonquests"]
 }

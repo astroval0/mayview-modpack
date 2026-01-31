@@ -1,14 +1,22 @@
 {
 	autofocus_id: "2E5866CA79AB274A"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "mv_wood"
 	filename: "6ecfonomy"
 	group: "216429D7B624FFA8"
 	icon: {
 		id: "mayview:gold_coin"
 	}
 	id: "7945EEEB5303E899"
-	order_index: 1
+	images: [{
+		height: 2.4d
+		image: "mayview:textures/economy_title.png"
+		rotation: 0.0d
+		width: 14.5d
+		x: 0.0d
+		y: -4.0d
+	}]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,7 +24,13 @@
 				id: "mayview:copper_coin"
 			}
 			id: "2E5866CA79AB274A"
-			size: 1.5d
+			rewards: [{
+				id: "653516F6B4D66F0C"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "wood_quad"
+			size: 2.0d
 			tasks: [{
 				id: "74F44F79590DEFEA"
 				item: { count: 1, id: "mayview:copper_coin" }
@@ -28,6 +42,30 @@
 		{
 			dependencies: ["2E5866CA79AB274A"]
 			id: "090DDB061A29C380"
+			rewards: [
+				{
+					id: "331003C0685AF290"
+					item: {
+						count: 1
+						id: "kubejs:sapling_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "2C327DFACCACE6AC"
+					item: {
+						count: 1
+						id: "kubejs:wood_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "76DB855F95A34178"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "wood_rounded"
 			tasks: [{
 				count: 99L
 				id: "1C9D33659DFEB3C1"
@@ -38,23 +76,70 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2E5866CA79AB274A"]
+			disable_toast: true
+			icon: {
+				components: {
+					"sellingbin:bin_material": "wood"
+					"sellingbin:bin_mode": "player_bound"
+				}
+				id: "sellingbin:selling_bin"
+			}
 			id: "2F174A4CD3484062"
+			rewards: [{
+				id: "38652B3424B107CB"
+				item: {
+					components: {
+						"sellingbin:bin_material": "wood"
+						"sellingbin:bin_mode": "player_bound"
+					}
+					count: 1
+					id: "sellingbin:selling_bin"
+				}
+				type: "item"
+			}]
+			shape: "mv_wood"
+			size: 1.1d
 			tasks: [{
-				id: "6825FA773EA3AF3E"
-				item: { components: { "sellingbin:bin_material": "wood", "sellingbin:bin_mode": "player_bound" }, count: 1, id: "sellingbin:selling_bin" }
+				count: 5L
+				id: "595020D632BFBF58"
+				item: { count: 1, id: "mayview:copper_coin" }
 				type: "item"
 			}]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["4653E430E6C28B82"]
+			icon: {
+				components: {
+					"sellingbin:bin_material": "netherite"
+					"sellingbin:bin_mode": "player_bound"
+				}
+				id: "sellingbin:selling_bin"
+			}
 			id: "00B363F735626BAD"
-			size: 1.25d
+			rewards: [{
+				id: "003E637192628A8F"
+				item: {
+					components: {
+						"sellingbin:bin_material": "netherite"
+						"sellingbin:bin_mode": "player_bound"
+					}
+					count: 1
+					id: "sellingbin:selling_bin"
+				}
+				type: "item"
+			}]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
-				id: "3C345BFC36753C5E"
-				item: { components: { "sellingbin:bin_material": "netherite", "sellingbin:bin_mode": "player_bound" }, count: 1, id: "sellingbin:selling_bin" }
+				consume_items: true
+				count: 3L
+				id: "79C6C73480741991"
+				item: { count: 1, id: "mayview:diamond_coin" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -62,7 +147,33 @@
 		}
 		{
 			dependencies: ["090DDB061A29C380"]
+			icon_scale: 0.9d
 			id: "00C59F8525D48840"
+			rewards: [
+				{
+					id: "74EDFFDCDAEF3DED"
+					item: {
+						count: 1
+						id: "kubejs:plushie_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "7801E2960A0C3648"
+					item: {
+						count: 1
+						id: "kubejs:stone_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "5F9545D61EC265EB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				count: 99L
 				id: "0F7270466A647794"
@@ -75,7 +186,21 @@
 		{
 			dependencies: ["00C59F8525D48840"]
 			id: "0791C1B46A258F54"
-			size: 1.25d
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E0184C1F4A31E23"
+					table_id: 5422239219386928246L
+					type: "choice"
+				}
+				{
+					id: "11D5D8770BDB22FE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "iso_hex"
+			size: 1.3d
 			tasks: [{
 				count: 99L
 				id: "2C3C6FD5A874D7A9"
@@ -86,36 +211,116 @@
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2F174A4CD3484062"]
+			disable_toast: true
+			icon: {
+				components: {
+					"sellingbin:bin_material": "iron"
+					"sellingbin:bin_mode": "player_bound"
+				}
+				id: "sellingbin:selling_bin"
+			}
 			id: "73CA7AE70B0F3318"
+			rewards: [{
+				id: "7567FFA109BAFF22"
+				item: {
+					components: {
+						"sellingbin:bin_material": "iron"
+						"sellingbin:bin_mode": "player_bound"
+					}
+					count: 1
+					id: "sellingbin:selling_bin"
+				}
+				type: "item"
+			}]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
-				id: "601A871512A638B4"
-				item: { components: { "sellingbin:bin_material": "iron", "sellingbin:bin_mode": "player_bound" }, count: 1, id: "sellingbin:selling_bin" }
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "47C793A6860B63CB"
+				item: { count: 1, id: "mayview:iron_coin" }
 				type: "item"
 			}]
 			x: 4.0d
 			y: 1.0d
 		}
 		{
+			can_repeat: true
 			dependencies: [
 				"73CA7AE70B0F3318"
 				"2EA8499C85F1E97B"
 			]
+			disable_toast: true
+			icon: {
+				components: {
+					"sellingbin:bin_material": "diamond"
+					"sellingbin:bin_mode": "player_bound"
+				}
+				id: "sellingbin:selling_bin"
+			}
 			id: "4653E430E6C28B82"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "06183D63456705EB"
+				item: {
+					components: {
+						"sellingbin:bin_material": "diamond"
+						"sellingbin:bin_mode": "player_bound"
+					}
+					count: 1
+					id: "sellingbin:selling_bin"
+				}
+				type: "item"
+			}]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
-				id: "4F3F61594CF8C85C"
-				item: { components: { "sellingbin:bin_material": "diamond", "sellingbin:bin_mode": "player_bound" }, count: 1, id: "sellingbin:selling_bin" }
+				consume_items: true
+				disable_toast: true
+				icon: {
+					id: "mayview:diamond_coin"
+				}
+				id: "08B2B772D0C9E5F2"
+				item: { count: 1, id: "mayview:diamond_coin" }
 				type: "item"
 			}]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
+			can_repeat: true
 			dependencies: ["2F174A4CD3484062"]
+			disable_toast: true
+			icon: {
+				components: {
+					"sellingbin:bin_material": "redstone"
+					"sellingbin:bin_mode": "block_bound"
+				}
+				id: "sellingbin:selling_bin"
+			}
 			id: "2EA8499C85F1E97B"
+			rewards: [{
+				id: "0E153D7732A9C7DE"
+				item: {
+					components: {
+						"sellingbin:bin_material": "redstone"
+						"sellingbin:bin_mode": "block_bound"
+					}
+					count: 1
+					id: "sellingbin:selling_bin"
+				}
+				type: "item"
+			}]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
+				count: 3L
+				disable_toast: true
 				id: "7EE46AD75890C4E8"
-				item: { components: { "sellingbin:bin_material": "redstone", "sellingbin:bin_mode": "block_bound" }, count: 1, id: "sellingbin:selling_bin" }
+				item: { count: 1, id: "mayview:gold_coin" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -126,6 +331,8 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2B6DD29FB1207A45"
+			shape: "mv_wood"
+			size: 1.1d
 			tasks: [{
 				id: "3A7F4EC78B493398"
 				item: { count: 1, id: "mayview:piggy_bank" }
@@ -136,7 +343,26 @@
 		}
 		{
 			dependencies: ["2E5866CA79AB274A"]
+			icon_scale: 0.9d
 			id: "3349CCFEF4645049"
+			rewards: [
+				{
+					id: "3DF5C7BA62C018C7"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 4
+					id: "312E0C2049738640"
+					item: {
+						count: 1
+						id: "create:white_seat"
+					}
+					type: "item"
+				}
+			]
+			shape: "mv_wood"
+			size: 1.1d
 			tasks: [{
 				id: "64F13BC1182CDDE4"
 				profession_dropdown: "minecraft:none"
@@ -155,6 +381,16 @@
 		{
 			dependencies: ["2E5866CA79AB274A"]
 			id: "30821B42C8DEB8B6"
+			rewards: [{
+				id: "7A57A9BE6E63C77F"
+				item: {
+					count: 1
+					id: "kubejs:food_care_package"
+				}
+				type: "item"
+			}]
+			shape: "mv_wood"
+			size: 1.1d
 			tasks: [{
 				id: "18A2D4033FED5C56"
 				item: { count: 1, id: "dailyshop:daily_shop" }
@@ -165,29 +401,77 @@
 		}
 		{
 			dependencies: ["30821B42C8DEB8B6"]
+			icon: {
+				id: "create:cardboard_package_12x12"
+			}
 			id: "6ED3683B843FCFDA"
+			rewards: [
+				{
+					id: "07BD6B77ABD93EA5"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6A1DE1D2680AAC62"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "567B233C4E683334"
+					type: "xp"
+					xp: 60
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
-					id: "create:cardboard_package_12x10"
+					id: "dailyshop:daily_shop"
 				}
 				id: "3A8C0851FA67CF16"
 				type: "custom"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3349CCFEF4645049"]
+			disable_toast: true
 			hide_until_deps_complete: true
 			id: "63BF10D7CF72D879"
+			rewards: [
+				{
+					id: "2BFE216558F05DE9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "3D6A30316B852B69"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
+				disable_toast: true
 				icon: {
 					id: "ae2:engineering_processor_press"
 				}
 				id: "1928FF50191CA43A"
 				profession_dropdown: "ae2:fluix_researcher"
 				profession_manual: "minecraft:librarian"
-				required: 20
+				required: 10
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -205,6 +489,24 @@
 				id: "biomeswevegone:flower_patch"
 			}
 			id: "791262F515B74A18"
+			rewards: [
+				{
+					id: "43966A19F0BA98B9"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "486D43838EC12364"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "beautify:botanist_workbench"
@@ -227,6 +529,24 @@
 			dependencies: ["3349CCFEF4645049"]
 			hide_until_deps_complete: true
 			id: "5BB9DE133BA40DDC"
+			rewards: [
+				{
+					id: "7E46BDE3FB590FF2"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "2583A00B149B99B4"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "biomeswevegone:foragers_table"
@@ -252,6 +572,24 @@
 				id: "farmersdelight:chicken_soup"
 			}
 			id: "5FC2C700B13FCBF9"
+			rewards: [
+				{
+					id: "489A45A4C025FF83"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "6F028154D45F3400"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "farmersdelight:skillet"
@@ -272,7 +610,26 @@
 		}
 		{
 			dependencies: ["5FC2C700B13FCBF9"]
+			icon_scale: 0.9d
 			id: "7BEBAF917FFD2694"
+			rewards: [
+				{
+					id: "0C1C575764255B00"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "4CF80537B1B324ED"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "farmersdelight:roast_chicken_block"
@@ -295,6 +652,24 @@
 			dependencies: ["3349CCFEF4645049"]
 			hide_until_deps_complete: true
 			id: "3A0FD4157BF8D9E9"
+			rewards: [
+				{
+					id: "53EE08B33C466C80"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "7B913B7185E614A6"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "cobblemon:healing_machine"
@@ -316,7 +691,26 @@
 		{
 			dependencies: ["3349CCFEF4645049"]
 			hide_until_deps_complete: true
+			icon_scale: 0.9d
 			id: "459965B8A62AFB24"
+			rewards: [
+				{
+					id: "3061C18D6DDE544F"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 10
+					id: "73F1BAA149F29ADB"
+					item: {
+						count: 1
+						id: "mayview:iron_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "wood_rounded"
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "vinery:apple_wine"
@@ -335,5 +729,55 @@
 			x: -2.0d
 			y: 2.0d
 		}
+		{
+			dependencies: [
+				"66FAE70650FC5940"
+				"09258DE91AFB6A16"
+				"52919649E427583D"
+				"655539BA83A80644"
+				"1FE5EEDDF5E7BFFC"
+				"04B9DE339B135991"
+				"6F23B277CC1AFAC0"
+				"0C37DA8A103E508D"
+				"1979B29D9CB08C9B"
+				"1A81125F084BBFA5"
+				"6C52672E709EBA53"
+				"1CF39C2BA9FFD2B4"
+				"7BD5086547F46FD1"
+				"0C5AFB107AB94B04"
+				"3794A15A6ABC3245"
+				"2B8779BCBC301CD1"
+				"30219714086D6264"
+				"56213AA136BAE706"
+				"5E9EFA9856252E9E"
+				"19D1E0EF219C2F3C"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "mayview:joe_coin"
+			}
+			icon_scale: 0.9d
+			id: "67886F3EEC7E8FEB"
+			rewards: [{
+				id: "74CDCEC08D16886F"
+				item: {
+					count: 1
+					id: "mayview:joe_coin"
+				}
+				type: "item"
+			}]
+			shape: "wood_rounded"
+			size: 1.6d
+			tags: ["legendaryquests"]
+			tasks: [{
+				id: "453B63ECAB2478F4"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
 	]
+	tags: ["mayviewquests"]
 }

@@ -34,78 +34,18 @@
     },
     {
       "input": {
-        "filter": "minecraft:potato",
-        "count": 24
+        "filter": "minecraft:tuff",
+        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:carrot",
-        "count": 24
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:melon_slice",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:pumpkin",
         "count": 8
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
       }
     },
     {
       "input": {
-        "filter": "minecraft:cactus",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:beetroot",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:cocoa_beans",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:bamboo",
-        "count": 16
+        "filter": "minecraft:tropical_fish",
+        "count": 8
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -124,27 +64,7 @@
     },
     {
       "input": {
-        "filter": "minecraft:kelp",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:glow_berries",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:blaze_rod",
+        "filter": "minecraft:sugar",
         "count": 16
       },
       "output": {
@@ -154,8 +74,8 @@
     },
     {
       "input": {
-        "filter": "minecraft:feather",
-        "count": 16
+        "filter": "minecraft:spruce_log",
+        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -164,18 +84,8 @@
     },
     {
       "input": {
-        "filter": "minecraft:leather",
+        "filter": "minecraft:spider_eye",
         "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 16
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:arrow",
-        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -184,8 +94,38 @@
     },
     {
       "input": {
-        "filter": "minecraft:gunpowder",
+        "filter": "minecraft:soul_sand",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:slime_ball",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
         "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:sand",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:salmon",
+        "count": 10
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -204,18 +144,28 @@
     },
     {
       "input": {
-        "filter": "minecraft:ender_pearl",
-        "count": 16
+        "filter": "minecraft:rabbit",
+        "count": 6
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 12
+        "count": 4
       }
     },
     {
       "input": {
-        "filter": "minecraft:ghast_tear",
+        "filter": "minecraft:pumpkin",
         "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:pufferfish",
+        "count": 6
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -234,7 +184,417 @@
     },
     {
       "input": {
+        "filter": "minecraft:potato",
+        "count": 24
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:porkchop",
+        "count": 6
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:paper",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:oak_log",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:netherrack",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:mutton",
+        "count": 6
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:melon_slice",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:mangrove_log",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
         "filter": "minecraft:magma_cream",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:leather",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 16
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:kelp",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:jungle_log",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:iron_ingot",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:gunpowder",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:gravel",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:granite",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:gold_ingot",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:glow_berries",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:ghast_tear",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:feather",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:ender_pearl",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:dirt",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:diorite",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:diamond",
+        "count": 2
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:dark_oak_log",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:copper_ingot",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_salmon",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_rabbit",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_porkchop",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_mutton",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_cod",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_chicken",
+        "count": 10
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cooked_beef",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cod",
+        "count": 10
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cocoa_beans",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cobblestone",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cobbled_deepslate",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:chicken",
+        "count": 12
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cherry_log",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:carrot",
+        "count": 24
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:calcite",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:cactus",
         "count": 16
       },
       "output": {
@@ -254,7 +614,17 @@
     },
     {
       "input": {
-        "filter": "minecraft:slime_ball",
+        "filter": "minecraft:blaze_rod",
+        "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:blackstone",
         "count": 32
       },
       "output": {
@@ -264,7 +634,17 @@
     },
     {
       "input": {
-        "filter": "minecraft:spider_eye",
+        "filter": "minecraft:birch_log",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "minecraft:beetroot",
         "count": 16
       },
       "output": {
@@ -274,8 +654,8 @@
     },
     {
       "input": {
-        "filter": "cobblemon:white_apricorn",
-        "count": 12
+        "filter": "minecraft:beef",
+        "count": 6
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -284,8 +664,8 @@
     },
     {
       "input": {
-        "filter": "cobblemon:yellow_apricorn",
-        "count": 12
+        "filter": "minecraft:bamboo",
+        "count": 16
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -294,8 +674,8 @@
     },
     {
       "input": {
-        "filter": "cobblemon:red_apricorn",
-        "count": 12
+        "filter": "minecraft:arrow",
+        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -304,52 +684,32 @@
     },
     {
       "input": {
-        "filter": "cobblemon:green_apricorn",
-        "count": 12
+        "filter": "minecraft:apple",
+        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 24
       }
     },
     {
       "input": {
-        "filter": "cobblemon:pink_apricorn",
-        "count": 12
+        "filter": "minecraft:andesite",
+        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 8
       }
     },
     {
       "input": {
-        "filter": "cobblemon:blue_apricorn",
-        "count": 12
+        "filter": "minecraft:acacia_log",
+        "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "cobblemon:black_apricorn",
         "count": 12
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "farmersdelight:cabbage",
-        "count": 12
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
       }
     },
     {
@@ -384,8 +744,8 @@
     },
     {
       "input": {
-        "filter": "minecraft:cobblestone",
-        "count": 32
+        "filter": "farmersdelight:cabbage",
+        "count": 12
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -394,98 +754,8 @@
     },
     {
       "input": {
-        "filter": "minecraft:blackstone",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:cobbled_deepslate",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:calcite",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:tuff",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:andesite",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:diorite",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:granite",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:sand",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:gravel",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:netherrack",
-        "count": 32
+        "filter": "cobblemon:yellow_apricorn",
+        "count": 12
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -494,88 +764,8 @@
     },
     {
       "input": {
-        "filter": "minecraft:oak_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:spruce_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
+        "filter": "cobblemon:white_apricorn",
         "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:birch_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:acacia_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:jungle_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:cherry_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:dark_oak_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:mangrove_log",
-        "count": 32
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 12
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:soul_sand",
-        "count": 16
       },
       "output": {
         "item": "mayview:copper_coin",
@@ -584,17 +774,57 @@
     },
     {
       "input": {
-        "filter": "minecraft:dirt",
-        "count": 32
+        "filter": "cobblemon:red_apricorn",
+        "count": 12
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 8
+        "count": 4
       }
     },
     {
       "input": {
-        "filter": "minecraft:iron_ingot",
+        "filter": "cobblemon:pink_apricorn",
+        "count": 12
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "cobblemon:green_apricorn",
+        "count": 12
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "cobblemon:blue_apricorn",
+        "count": 12
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "cobblemon:black_apricorn",
+        "count": 12
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 4
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:fried_egg",
         "count": 8
       },
       "output": {
@@ -604,127 +834,117 @@
     },
     {
       "input": {
-        "filter": "minecraft:gold_ingot",
+        "filter": "farmersdelight:apple_pie",
         "count": 8
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 32
       }
     },
     {
       "input": {
-        "filter": "minecraft:copper_ingot",
+        "filter": "farmersdelight:sweet_berry_cheesecake",
         "count": 8
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 32
       }
     },
     {
       "input": {
-        "filter": "minecraft:diamond",
+        "filter": "farmersdelight:beef_stew",
+        "count": 8
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 32
+      }
+    },
+    {
+      "input": {
+        "filter": "brewinandchewin:pizza",
+        "count": 1
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "veggiesdelight:vegan_pizza",
+        "count": 1
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "veggiesdelight:vegetarian_burger",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "brewinandchewin:horror_lasagna",
         "count": 2
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 20
       }
     },
     {
       "input": {
-        "filter": "minecraft:salmon",
-        "count": 10
+        "filter": "candlelight:lasagna",
+        "count": 4
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 16
       }
     },
     {
       "input": {
-        "filter": "minecraft:cooked_salmon",
-        "count": 8
+        "filter": "veggiesdelight:lasagna_pan",
+        "count": 4
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:cod",
-        "count": 10
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:cooked_cod",
-        "count": 8
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:tropical_fish",
-        "count": 8
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:pufferfish",
-        "count": 6
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:chicken",
         "count": 12
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
       }
     },
     {
       "input": {
-        "filter": "minecraft:cooked_chicken",
-        "count": 10
+        "filter": "minecraft:golden_carrot",
+        "count": 4
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 1
       }
     },
     {
       "input": {
-        "filter": "minecraft:porkchop",
-        "count": 6
+        "filter": "minecraft:rabbit_stew",
+        "count": 2
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 8
       }
     },
     {
       "input": {
-        "filter": "minecraft:cooked_porkchop",
+        "filter": "brewinandchewin:vegetable_omlet",
         "count": 5
       },
       "output": {
@@ -734,17 +954,7 @@
     },
     {
       "input": {
-        "filter": "minecraft:beef",
-        "count": 6
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:cooked_beef",
+        "filter": "brewinandchewin:creamy_onion_soup",
         "count": 5
       },
       "output": {
@@ -754,72 +964,322 @@
     },
     {
       "input": {
-        "filter": "minecraft:mutton",
-        "count": 6
+        "filter": "minecraft:bread",
+        "count": 16
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 1
       }
     },
     {
       "input": {
-        "filter": "minecraft:cooked_mutton",
+        "filter": "brewinandchewin:cheesy_pasta",
         "count": 5
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 6
       }
     },
     {
       "input": {
-        "filter": "minecraft:rabbit",
-        "count": 6
+        "filter": "brewinandchewin:scarlet_pierogi",
+        "count": 2
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 16
       }
     },
     {
       "input": {
-        "filter": "minecraft:cooked_rabbit",
+        "filter": "brewinandchewin:ham_and_cheese_sandwich",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:chicken_inasal_rice",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:tosilog",
         "count": 5
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 4
+        "count": 6
       }
     },
     {
       "input": {
-        "filter": "minecraft:apple",
+        "filter": "ubesdelight:bangsilog",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:sisig",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 6
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:bulalo",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:arroz_caldo",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:mechado",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 6
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:pandasal_ube",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:ensaymada",
+        "count": 3
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:ensaymada_ube",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:vegetable_soup",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:chicken_soup",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:fish_stew",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:pumpkin_soup",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:baked_cod_soup",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farmersdelight:noodle_soup",
+        "count": 5
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 8
+      }
+    },
+    {
+      "input": {
+        "filter": "biomeswevegone:allium_oddion_soup",
+        "count": 2
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 3
+      }
+    },
+    {
+      "input": {
+        "filter": "biomeswevegone:white_puffball_stew",
+        "count": 2
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 6
+      }
+    },
+    {
+      "input": {
+        "filter": "ubesdelight:lumpia",
+        "count": 6
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 7
+      }
+    },
+    {
+      "input": {
+        "filter": "mynethersdelight:egg_soup",
+        "count": 11
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 12
+      }
+    },
+    {
+      "input": {
+        "filter": "farm_and_charm:oat_pancake",
         "count": 32
       },
       "output": {
         "item": "mayview:copper_coin",
-        "count": 24
+        "count": 36
       }
     },
     {
       "input": {
-        "filter": "minecraft:paper",
+        "filter": "veggiesdelight:sweet_potato_pancakes",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 7
+      }
+    },
+    {
+      "input": {
+        "filter": "bakery:chocolate_gateau",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 6
+      }
+    },
+    {
+      "input": {
+        "filter": "createaddition:chocolate_cake",
+        "count": 32
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 2
+      }
+    },
+    {
+      "input": {
+        "filter": "cobblemon:open_faced_sandwich",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "cobblemon:big_malasada",
+        "count": 4
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farm_and_charm:grandmothers_strawberry_cake",
         "count": 16
+      },
+      "output": {
+        "item": "mayview:copper_coin",
+        "count": 5
+      }
+    },
+    {
+      "input": {
+        "filter": "farm_and_charm:sausage_with_oat_patty",
+        "count": 5
       },
       "output": {
         "item": "mayview:copper_coin",
         "count": 4
-      }
-    },
-    {
-      "input": {
-        "filter": "minecraft:sugar",
-        "count": 16
-      },
-      "output": {
-        "item": "mayview:copper_coin",
-        "count": 8
       }
     }
   ]

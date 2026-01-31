@@ -102,11 +102,11 @@
 	#Accumulator max input in FE/t (Energy transfer).
 	# Default: 5000
 	# Range: > 0
-	accumulator_max_input = 5000
+	accumulator_max_input = 10000
 	#Accumulator max output in FE/t (Energy transfer).
 	# Default: 5000
 	# Range: > 0
-	accumulator_max_output = 5000
+	accumulator_max_output = 10000
 	#Accumulator internal capacity per block in FE.
 	# Default: 2000000
 	# Range: > 0
@@ -136,15 +136,15 @@
 	#Tesla Coil max input in FE/t (Energy transfer).
 	# Default: 10000
 	# Range: > 0
-	tesla_coil_max_input = 10000
+	tesla_coil_max_input = 20000
 	#Tesla Coil charge rate in FE/t.
 	# Default: 5000
 	# Range: > 0
-	tesla_coil_charge_rate = 5000
+	tesla_coil_charge_rate = 20000
 	#Tesla Coil charge rate in FE/t for recipes.
 	# Default: 2000
 	# Range: > 0
-	tesla_coil_recipe_charge_rate = 2000
+	tesla_coil_recipe_charge_rate = 20000
 	#Tesla Coil internal capacity in FE.
 	# Default: 40000
 	# Range: > 0
@@ -183,7 +183,7 @@
 	#Diamond Grit Sandpaper durability (number of uses).
 	# Default: 1024
 	# Range: > 3
-	diamond_grit_sandpaper_uses = 1024
+	diamond_grit_sandpaper_uses = 4096
 	#Barbed Wire Damage.
 	# Default: 2.0
 	# Range: 0.0 ~ 3.4028234663852886E38

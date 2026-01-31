@@ -1,18 +1,199 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "octosquare"
 	filename: "2plushie_fcollection"
 	group: "13E63132F42CE474"
 	icon: {
 		id: "plushies:panda_plushie"
 	}
 	id: "6CAFC2FAB53F2605"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:item/axolotl_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			height: 2.2d
+			image: "mayview:textures/plushies_title.png"
+			order: 5
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			height: 2.2d
+			image: "minecraft:item/happy_ghast_spawn_egg"
+			rotation: 0.0d
+			width: 2.2d
+			x: 1.7d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "ribbits:item/swamp_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: -2.35d
+		}
+		{
+			height: 1.0d
+			image: "ribbits:item/swamp_lantern"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -2.35d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/llama_spawn_egg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.0d
+			y: -3.3d
+		}
+		{
+			height: 1.4d
+			image: "minecraft:item/gold_axolotl_bucket"
+			rotation: 0.0d
+			width: 1.4d
+			x: 6.1d
+			y: -3.0d
+		}
+		{
+			color: 12112815
+			height: 1.6d
+			image: "mayview:textures/joe_flower_02.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: 5.1d
+			y: -4.1d
+		}
+		{
+			height: 2.0d
+			image: "mayview:textures/joe_flower_01.png"
+			rotation: 0.0d
+			width: 2.2d
+			x: -5.0d
+			y: -4.0d
+		}
+	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"59C4E18DA31041D9"
+				"7765BE8C461DE430"
+				"7C55C8A297BC28CF"
+				"0694F2F4AF2C5909"
+				"2B66F8F25AB426E6"
+				"2CB19A3FAA7251FB"
+				"72BD2105795489E4"
+				"42C6ED9B94878D50"
+				"261395A28C94CC6E"
+				"7C9E52B80EEF09C4"
+				"0ADA4F0C98FA4B7E"
+				"62AF7F39E428582D"
+				"5A46F19D956483EC"
+				"31677A9B7A166F79"
+				"11A2C1CCC21E8B66"
+				"4F02D36C0B11F7E9"
+				"3ACDFB455F175648"
+				"4AE08B6A260ABADB"
+				"14EF37883BC1E8BD"
+				"4D58B4BBDBCC8631"
+				"28195E29BE51B37E"
+				"6958355FD77AB61C"
+				"5945869818C7AE78"
+				"3CB31581B96764B7"
+				"0E2E9B9168CA8E97"
+				"41C2F58A8E96AF7A"
+				"6D083E9FC785A6B7"
+				"15E6789E23C902D8"
+				"3BE0676C468D61A8"
+				"57A34DC25937293C"
+				"1673C1A0D0C88630"
+				"3EE9AAD9E5F5F569"
+				"5289C6824E044DBD"
+				"0147B213E92CB54F"
+				"0A7B325D22CE37D2"
+				"3867CB4A1C1D33CB"
+				"3B5683B36DF7A0AE"
+				"43EC908323901883"
+				"210FFA323C523D52"
+				"078E147914D5A29D"
+				"7FF3419DDDC3588F"
+				"49B5E187C58DB7BB"
+				"385C6FF9CCC8E4E5"
+				"52C18A63DECDC347"
+				"56643F67A8FAE751"
+				"2189A3645FFAA17A"
+				"3F30E01D88D646F6"
+				"6CAD0A879CB29935"
+				"7FFB1B61A8F42A5E"
+				"6E729AF2080F7A1F"
+				"7DE003AA9B680473"
+				"7BCD44AF6CFB0588"
+				"69C1CD15FEE031C6"
+				"185C9FE14B9EF114"
+				"26E9C9C28BB6DEE4"
+				"4DD3EB42DF5622F9"
+				"1543A0574A2C74C7"
+				"60068C6EEB6F37C7"
+				"39A6661FF399EAA1"
+				"45949BC0057759A0"
+				"3C0F412AD718CE7B"
+				"62413C180C853AD5"
+				"2EB065127A4C9422"
+				"0CDABF40E0C41FD2"
+				"3DD0BC2C70092F7B"
+				"3E82759E5737BD25"
+				"14A9088F0EBD0894"
+				"31010DEA503C0D47"
+				"2F0C0259FCA198A6"
+				"34CD2D285308B1FE"
+				"1E898FE52D597C20"
+				"423C3A70B5A5C6FC"
+				"40BF19721506941C"
+				"7424360C952B5519"
+				"219416EEE5619E07"
+				"258590F7A6A560CB"
+				"21BAEF916FD506E3"
+				"25FAB1C89401192C"
+				"0828A6C09B02660A"
+				"4F8D6981715CFFB2"
+				"4A99DDFF9008CACC"
+				"3C7C440437023B5D"
+				"6C4A33724EDEB209"
+				"5B8852FB5B7830E4"
+				"66C13F8D69AFC253"
+				"1A367423923EC919"
+				"616C161A28B358F1"
+				"0313384A85B21F1C"
+				"19627B0465D29503"
+				"6E2FF80AB3358DAB"
+				"538F5A4160F64707"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "kubejs:plushie_care_package"
+			}
+			icon_scale: 0.9d
 			id: "25871D9548735CE5"
-			size: 1.5d
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75ED5D70B5DE99EC"
+				table_id: 5422239219386928246L
+				type: "choice"
+			}]
+			size: 2.0d
 			tasks: [{
 				id: "296690A7336B8E7D"
 				type: "checkmark"
@@ -463,7 +644,7 @@
 		{
 			id: "14A9088F0EBD0894"
 			tasks: [{
-				id: "0F10D5EBF2CF2960"
+				id: "5054DA567453589F"
 				item: { count: 1, id: "plushies:creeper_plushie" }
 				type: "item"
 			}]
@@ -683,7 +864,7 @@
 		{
 			id: "14EF37883BC1E8BD"
 			tasks: [{
-				id: "0A00264A806BD915"
+				id: "168590CC5FE66C5A"
 				item: { count: 1, id: "plushies:turtle_plushie" }
 				type: "item"
 			}]
@@ -873,7 +1054,7 @@
 		{
 			id: "1A367423923EC919"
 			tasks: [{
-				id: "64052261752EE70B"
+				id: "280C5C0F55624C91"
 				item: { count: 1, id: "plushies:magma_cube_plushie" }
 				type: "item"
 			}]
@@ -931,4 +1112,5 @@
 			y: 0.0d
 		}
 	]
+	tags: ["mayviewquests"]
 }

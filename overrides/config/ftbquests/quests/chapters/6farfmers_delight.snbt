@@ -1,19 +1,26 @@
 {
 	autofocus_id: "356E5A72B9C35F2E"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "mv_wood2"
 	filename: "6farfmers_delight"
 	group: "216429D7B624FFA8"
 	icon: {
 		id: "minecraft:golden_apple"
 	}
 	id: "6E8FD638D9F526C9"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["54AE6C7B41BD5077"]
+			icon_scale: 0.9d
 			id: "548343A390F2D219"
+			rewards: [{
+				id: "0182434C0289DA9F"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "minecraft:torchflower_seeds"
@@ -29,11 +36,31 @@
 				"548343A390F2D219"
 				"3B25CB0228D8A38F"
 			]
+			icon: {
+				id: "farm_and_charm:fertilizer"
+			}
+			icon_scale: 0.9d
 			id: "323A4550C21D0C2C"
+			rewards: [
+				{
+					count: 8
+					id: "24B758835FAE214E"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
+				{
+					id: "2B54B6CBFD451740"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.1d
 			tasks: [{
-				count: 32L
-				id: "05C8A59722D86E15"
-				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				id: "46AB6E33C2F874BB"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:fertilizers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -46,17 +73,43 @@
 				"0136170ECFA84AAE"
 			]
 			dependency_requirement: "one_completed"
+			icon_scale: 0.9d
 			id: "07F725FB96CC4E68"
+			rewards: [
+				{
+					id: "1FB17B28FD48D573"
+					item: {
+						count: 1
+						id: "kubejs:food_care_package"
+					}
+					type: "item"
+				}
+				{
+					id: "274180EBD05832AF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.1d
 			tasks: [{
-				id: "6965AFCA75B866D6"
-				type: "custom"
+				count: 4L
+				id: "45EB4316850C5AAB"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["323A4550C21D0C2C"]
+			icon_scale: 0.9d
 			id: "5F0AAF85536395AC"
+			rewards: [{
+				id: "20B5C56E022E78AF"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [
 				{
 					count: 8L
@@ -79,7 +132,14 @@
 				"5F0AAF85536395AC"
 				"5B941D762908023B"
 			]
+			icon_scale: 0.9d
 			id: "0431A9ACE4F30C6E"
+			rewards: [{
+				id: "088EF308CA8FFED0"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [
 				{
 					count: 8L
@@ -99,7 +159,14 @@
 		}
 		{
 			dependencies: ["323A4550C21D0C2C"]
+			icon_scale: 0.9d
 			id: "5B941D762908023B"
+			rewards: [{
+				id: "7D8C8423E46F330B"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "410A40DB0AAF160F"
 				item: { count: 1, id: "minecraft:mycelium" }
@@ -109,11 +176,20 @@
 			y: -8.0d
 		}
 		{
+			icon: {
+				id: "minecraft:stone_hoe"
+			}
+			icon_scale: 0.9d
 			id: "356E5A72B9C35F2E"
+			rewards: [{
+				id: "5C15541730CFA467"
+				type: "xp"
+				xp: 20
+			}]
 			size: 1.5d
 			tasks: [{
-				id: "770A118D2C1B642B"
-				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+				id: "64798D4EA0844243"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -121,8 +197,15 @@
 		}
 		{
 			dependencies: ["548343A390F2D219"]
+			icon_scale: 0.9d
 			id: "0136170ECFA84AAE"
 			optional: true
+			rewards: [{
+				id: "401BCC5589955A9C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "6BB59FE91B9A8388"
 				item: { count: 1, id: "minecraft:water_bucket" }
@@ -133,7 +216,14 @@
 		}
 		{
 			dependencies: ["356E5A72B9C35F2E"]
+			icon_scale: 0.9d
 			id: "54AE6C7B41BD5077"
+			rewards: [{
+				id: "64912E8884AD6907"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "minecraft:husbandry/plant_seed"
 				criterion: ""
@@ -145,8 +235,14 @@
 		}
 		{
 			dependencies: ["0431A9ACE4F30C6E"]
+			icon_scale: 0.9d
 			id: "29D64DF23CC79215"
-			size: 1.25d
+			rewards: [{
+				id: "1F2E052B9FEF5CC9"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				icon: {
 					id: "minecraft:hay_block"
@@ -159,7 +255,14 @@
 		}
 		{
 			dependencies: ["54AE6C7B41BD5077"]
+			icon_scale: 0.9d
 			id: "3B25CB0228D8A38F"
+			rewards: [{
+				id: "57498F0DCC9E7153"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "208504EA5488C7FF"
 				item: { count: 1, id: "minecraft:composter" }
@@ -173,8 +276,16 @@
 				"0136170ECFA84AAE"
 				"07F725FB96CC4E68"
 			]
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
 			id: "2EAC03F39F4B9DA6"
-			size: 1.25d
+			rewards: [{
+				id: "53191C2F0D24A7DB"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [
 				{
 					id: "0E8D6EA58932CF12"
@@ -187,8 +298,8 @@
 					type: "item"
 				}
 				{
-					id: "7DBFDCFCA3AFB1FB"
-					item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
+					id: "0772200C8CD230DF"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/knife)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -197,7 +308,17 @@
 		}
 		{
 			dependencies: ["2EAC03F39F4B9DA6"]
+			icon: {
+				id: "farm_and_charm:stuffed_chicken"
+			}
+			icon_scale: 0.9d
 			id: "710344B0D7FBA782"
+			rewards: [{
+				id: "60DCB1E189BA7A08"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [
 				{
 					advancement: "farmersdelight:main/place_cooking_pot"
@@ -217,7 +338,14 @@
 		}
 		{
 			dependencies: ["710344B0D7FBA782"]
+			icon_scale: 0.9d
 			id: "216383188B2931DE"
+			rewards: [{
+				id: "4E7B1ECFF678F533"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "farmersdelight:main/eat_comfort_food"
 				criterion: ""
@@ -232,7 +360,14 @@
 				"0D9405C095E1AE05"
 				"216383188B2931DE"
 			]
+			icon_scale: 0.9d
 			id: "4A00694C26C55754"
+			rewards: [{
+				id: "5B70D0F000FC96BD"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "farmersdelight:main/place_feast"
 				criterion: ""
@@ -245,7 +380,13 @@
 		{
 			dependencies: ["4A00694C26C55754"]
 			id: "3ECCFCB2481C8BF6"
-			size: 1.25d
+			rewards: [{
+				id: "42018DEB64B01007"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.5d
+			tags: ["golden"]
 			tasks: [{
 				advancement: "farmersdelight:main/master_chef"
 				criterion: ""
@@ -257,7 +398,14 @@
 		}
 		{
 			dependencies: ["710344B0D7FBA782"]
+			icon_scale: 0.9d
 			id: "0D9405C095E1AE05"
+			rewards: [{
+				id: "385428DFB738BDDC"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "farmersdelight:main/eat_nourishing_food"
 				criterion: ""
@@ -269,7 +417,14 @@
 		}
 		{
 			dependencies: ["2EAC03F39F4B9DA6"]
+			icon_scale: 0.9d
 			id: "14C3A30A0BE1689F"
+			rewards: [{
+				id: "6D646C34A6A51997"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "farmersdelight:main/use_cutting_board"
 				criterion: ""
@@ -281,7 +436,14 @@
 		}
 		{
 			dependencies: ["14C3A30A0BE1689F"]
+			icon_scale: 0.9d
 			id: "5531DBC8D00FCC05"
+			rewards: [{
+				id: "169A7027ACC6828C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				advancement: "farmersdelight:main/obtain_netherite_knife"
 				criterion: ""
@@ -293,22 +455,20 @@
 		}
 		{
 			dependencies: ["2EAC03F39F4B9DA6"]
+			icon_scale: 0.9d
 			id: "27F43B0ADAC07C61"
+			rewards: [{
+				id: "3BA6905EC66EC96C"
+				type: "xp"
+				xp: 20
+			}]
+			size: 1.1d
 			tasks: [{
 				id: "74CB2BF6EC7BF59E"
 				type: "checkmark"
 			}]
 			x: 3.0d
 			y: -8.0d
-		}
-		{
-			id: "2C1F1B66930761C3"
-			tasks: [{
-				id: "58871EA8BAAA7528"
-				type: "custom"
-			}]
-			x: 5.0d
-			y: -6.0d
 		}
 	]
 }

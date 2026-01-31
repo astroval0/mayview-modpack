@@ -1,5 +1,5 @@
 {
-	"useExperimentalCaching": false,
+	"useExperimentalCaching": true,
 	"clientOptions": {
 		"equipControl": "MUST_NOT_CROUCH",
 		"forceNullRenderReplacement": false,
@@ -8,7 +8,7 @@
 		"disabledDefaultRenders": []
 	},
 	"screenOptions": {
-		"selectedScreenType": "ORIGINAL",
+		"selectedScreenType": "EXPERIMENTAL_V1",
 		"showUnusedSlots": false,
 		"allowSlotScrolling": true,
 		"inventoryButtonOffset": {
@@ -37,5 +37,22 @@
 			"darkenedOpacity": 1.0
 		}
 	},
-	"modifiers": []
+	"modifiers": [
+		{
+			"slotType": "hat",
+			"amount": 2
+		},
+		{
+			"slotType": "charm",
+			"amount": 2
+		},
+		{
+			"slotType": "ring",
+			"amount": 1
+		},
+		{
+			"slotType": "wrist",
+			"amount": 1
+		}
+	]
 }

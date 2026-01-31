@@ -1,0 +1,17 @@
+ServerEvents.recipes(event => {  
+  
+    const bannedDarkUtilItems = [
+    "darkutils:vector_plate_fast",
+    "darkutils:vector_plate_extreme",
+    "darkutils:vector_plate_ultra",
+
+    "darkutils:rune_builder",
+    "darkutils:rune_runelic",
+    "darkutils:rune_pigpen",
+    "darkutils:rune_nyctography",
+    "darkutils:rune_galactic",
+    "darkutils:rune_illager",
+    ]
+
+    bannedDarkUtilItems.forEach(id => event.remove({ output: id }))
+})

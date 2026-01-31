@@ -75,11 +75,11 @@
     "registry_name.special": false,
     "block_states": false,
     "distance": false,
-    "block_face": false,
+    "block_face": true,
     "coordinates": false,
-    "registry_name": "OFF",
+    "registry_name": "ADVANCED_TOOLTIPS",
     "block_properties": false,
-    "mod_name": false
+    "mod_name": true
   },
   "waystones": {
     "waystone": true

@@ -1,13 +1,21 @@
 {
 	autofocus_id: "76D3889BC03E7022"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "wood_rounded"
 	filename: "2vilrlagers"
 	group: "13E63132F42CE474"
 	icon: {
 		id: "minecraft:villager_spawn_egg"
 	}
 	id: "34ED9CFAF3B7E0D2"
+	images: [{
+		height: 2.2d
+		image: "mayview:textures/traders_hub_title.png"
+		rotation: 0.0d
+		width: 17.0d
+		x: 0.0d
+		y: -4.6d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -15,13 +23,15 @@
 			icon: {
 				id: "minecraft:villager_spawn_egg"
 			}
+			icon_scale: 0.9d
 			id: "76D3889BC03E7022"
 			rewards: [{
 				id: "350B61FDA34F056F"
 				type: "xp"
 				xp: 20
 			}]
-			size: 1.5d
+			shape: "octosquare"
+			size: 1.8d
 			tasks: [{
 				id: "171E27C95F8FB340"
 				type: "checkmark"
@@ -31,16 +41,20 @@
 		}
 		{
 			dependencies: ["76D3889BC03E7022"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:crafting_table"
 			}
+			icon_scale: 0.9d
 			id: "573F9BC77791E771"
 			rewards: [{
 				id: "6331DE140C7084A2"
 				type: "xp"
 				xp: 20
 			}]
+			shape: "octosquare"
+			size: 1.8d
 			tasks: [{
 				id: "0E597AACA5F79A8B"
 				type: "checkmark"
@@ -110,7 +124,7 @@
 				}
 			]
 			x: -3.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["573F9BC77791E771"]
@@ -119,14 +133,6 @@
 				id: "beautify:botanist_workbench"
 			}
 			id: "3C13C4F2884995A5"
-			rewards: [{
-				id: "79FB652701D39D10"
-				item: {
-					count: 1
-					id: "minecraft:oak_stairs"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					icon: {
@@ -181,7 +187,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -8.5d
 			y: 1.0d
 		}
 		{
@@ -246,7 +252,7 @@
 				}
 			]
 			x: -7.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["573F9BC77791E771"]
@@ -287,14 +293,6 @@
 				id: "ae2:charger"
 			}
 			id: "694750A3B6D87435"
-			rewards: [{
-				id: "7005A44BB33CF25D"
-				item: {
-					count: 1
-					id: "minecraft:spruce_trapdoor"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					icon: {
@@ -317,7 +315,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -359,14 +357,6 @@
 				id: "cobblemon:healing_machine"
 			}
 			id: "6B693D101E498D99"
-			rewards: [{
-				id: "5A6EAD9C2129BA99"
-				item: {
-					count: 1
-					id: "minecraft:birch_fence"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					icon: {
@@ -422,7 +412,7 @@
 				}
 			]
 			x: -7.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["573F9BC77791E771"]
@@ -485,7 +475,7 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
+			x: -8.5d
 			y: -1.0d
 		}
 		{
@@ -614,7 +604,7 @@
 				}
 			]
 			x: -3.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["573F9BC77791E771"]
@@ -623,14 +613,6 @@
 				id: "minecraft:smithing_table"
 			}
 			id: "44E4FC79CB7E87C3"
-			rewards: [{
-				id: "2BA552195F6F6C93"
-				item: {
-					count: 1
-					id: "minecraft:birch_stairs"
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					icon: {
@@ -659,6 +641,9 @@
 		{
 			dependencies: ["573F9BC77791E771"]
 			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:grindstone"
+			}
 			id: "4FD5D47135133451"
 			tasks: [
 				{
@@ -682,16 +667,20 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["573F9BC77791E771"]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				id: "mayview:joe_coin"
 			}
+			icon_scale: 0.9d
 			id: "1A81125F084BBFA5"
+			shape: "octosquare"
+			size: 1.8d
 			tasks: [{
 				id: "214085C683834BC4"
 				type: "checkmark"
@@ -710,7 +699,7 @@
 				id: "5B5D53E47C8358B1"
 				profession_dropdown: "ae2:fluix_researcher"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -718,7 +707,7 @@
 				use_wanted_item_output_count: false
 				wanted_item: "minecraft:emerald"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -732,7 +721,7 @@
 				id: "7DE2FAD61324D4ED"
 				profession_dropdown: "beautify:botanist"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -754,7 +743,7 @@
 				id: "140688F6D2B4CD97"
 				profession_dropdown: "chefsdelight:chef"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -776,7 +765,7 @@
 				id: "6242F965302B658B"
 				profession_dropdown: "chefsdelight:cook"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -798,7 +787,7 @@
 				id: "005E9E98D5BB01A4"
 				profession_dropdown: "cobblemon:nurse"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -820,7 +809,7 @@
 				id: "2E95CE907E782282"
 				profession_dropdown: "minecraft:armorer"
 				profession_manual: "minecraft:librarian"
-				required: 1
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -829,7 +818,7 @@
 				wanted_item: "minecraft:emerald"
 			}]
 			x: 7.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1A81125F084BBFA5"]
@@ -842,7 +831,7 @@
 				id: "54CA65579911A3FC"
 				profession_dropdown: "minecraft:butcher"
 				profession_manual: "minecraft:librarian"
-				required: 1
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -864,7 +853,7 @@
 				id: "6B000D6F56C3EC4F"
 				profession_dropdown: "minecraft:cartographer"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -872,7 +861,7 @@
 				use_wanted_item_output_count: false
 				wanted_item: "minecraft:emerald"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: -1.0d
 		}
 		{
@@ -886,7 +875,7 @@
 				id: "4E5E906B54AE00BA"
 				profession_dropdown: "minecraft:cleric"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -908,7 +897,7 @@
 				id: "6B18337C4F802DFB"
 				profession_dropdown: "minecraft:farmer"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -916,7 +905,7 @@
 				use_wanted_item_output_count: false
 				wanted_item: "minecraft:emerald"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -930,7 +919,7 @@
 				id: "6A3BDE0D17C87F5E"
 				profession_dropdown: "minecraft:fisherman"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -952,7 +941,7 @@
 				id: "656126815F52ED62"
 				profession_dropdown: "minecraft:fletcher"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -961,7 +950,7 @@
 				wanted_item: "minecraft:emerald"
 			}]
 			x: 7.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A81125F084BBFA5"]
@@ -974,7 +963,7 @@
 				id: "13FC52526112B83B"
 				profession_dropdown: "minecraft:leatherworker"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -996,7 +985,7 @@
 				id: "73EB8FF7F38C7639"
 				profession_dropdown: "minecraft:librarian"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -1018,7 +1007,7 @@
 				id: "4EF202186B91A92A"
 				profession_dropdown: "minecraft:mason"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -1040,7 +1029,7 @@
 				id: "4AA5AFE37EB9F0ED"
 				profession_dropdown: "minecraft:shepherd"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -1049,7 +1038,7 @@
 				wanted_item: "minecraft:emerald"
 			}]
 			x: 3.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A81125F084BBFA5"]
@@ -1062,7 +1051,7 @@
 				id: "10A197BBC4A45349"
 				profession_dropdown: "minecraft:toolsmith"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -1082,9 +1071,9 @@
 					id: "minecraft:grindstone"
 				}
 				id: "010C37E2959B5306"
-				profession_dropdown: "minecraft:toolsmith"
+				profession_dropdown: "minecraft:weaponsmith"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -1092,7 +1081,7 @@
 				use_wanted_item_output_count: false
 				wanted_item: "minecraft:emerald"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -1106,7 +1095,7 @@
 				id: "02265D448AD15FF3"
 				profession_dropdown: "biomeswevegone:forager"
 				profession_manual: "minecraft:librarian"
-				required: 10
+				required: 50
 				type: "questeventbridge:trade_task"
 				use_dropdown: true
 				use_total: false
@@ -1115,147 +1104,8 @@
 				wanted_item: "minecraft:emerald"
 			}]
 			x: 3.0d
-			y: -3.0d
-		}
-		{
-			id: "0A79CF082F1E0093"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E31F09629FB4930"
-				table_id: 6181371867369904897L
-				type: "all_table"
-			}]
-			tasks: [
-				{
-					icon: {
-						id: "ae2:silicon_press"
-					}
-					id: "6EF8FACE0C508059"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "ae2:silicon_press"
-				}
-				{
-					icon: {
-						id: "ae2:calculation_processor_press"
-					}
-					id: "132574D9F30EA71F"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-				{
-					icon: {
-						id: "ae2:logic_processor_press"
-					}
-					id: "28B1B6883E0A6C5F"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-				{
-					icon: {
-						id: "ae2:engineering_processor_press"
-					}
-					id: "28CAA5D4C8377FC6"
-					optional_task: true
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: false
-					use_wanted_item: true
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-				{
-					icon: {
-						id: "minecraft:villager_spawn_egg"
-					}
-					id: "58334A57711A5DA0"
-					profession_dropdown: "ae2:fluix_researcher"
-					profession_manual: "minecraft:librarian"
-					required: 1
-					type: "questeventbridge:trade_task"
-					use_dropdown: true
-					use_total: true
-					use_wanted_item: false
-					use_wanted_item_output_count: false
-					wanted_item: "minecraft:emerald"
-				}
-			]
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			id: "493B05B1398DACED"
-			rewards: [{
-				id: "33DA8F2CC9CE0821"
-				item: {
-					count: 1
-					id: "kubejs:pokemon_gamba_package"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				icon: {
-					id: "cobblemon:poke_ball"
-				}
-				id: "64587784FA6B86EE"
-				profession_dropdown: "cobblemon:nurse"
-				profession_manual: "minecraft:librarian"
-				required: 50
-				type: "questeventbridge:trade_task"
-				use_dropdown: true
-				use_total: true
-				use_wanted_item: false
-				use_wanted_item_output_count: false
-				wanted_item: "minecraft:emerald"
-			}]
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			id: "33D8DC5178869F32"
-			tasks: [{
-				icon: {
-					id: "minecraft:iron_sword"
-				}
-				id: "669247EC9FB7D931"
-				profession_dropdown: "minecraft:weaponsmith"
-				profession_manual: "minecraft:librarian"
-				required: 1
-				type: "questeventbridge:trade_task"
-				use_dropdown: true
-				use_total: false
-				use_wanted_item: true
-				use_wanted_item_output_count: false
-				wanted_item: "minecraft:iron_sword"
-			}]
-			x: 0.0d
-			y: 3.0d
+			y: -2.5d
 		}
 	]
+	tags: ["mayviewquests"]
 }
